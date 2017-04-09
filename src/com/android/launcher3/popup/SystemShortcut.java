@@ -3,6 +3,7 @@ package com.android.launcher3.popup;
 import static com.android.launcher3.userevent.nano.LauncherLogProto.Action;
 import static com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -116,5 +117,35 @@ public abstract class SystemShortcut<T extends BaseDraggingActivity> extends Ite
                 AbstractFloatingView.closeAllOpenViews(activity);
             };
         }
+    }
+
+    public static class Edit extends SystemShortcut<Launcher> {
+        public Edit() {
+            super(R.drawable.ic_edit_no_shadow, R.string.action_edit);
+        }
+
+        public View.OnClickListener getOnClickListener(final Launcher launcher,
+                final ItemInfo itemInfo) {
+            return new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ComponentName componentName = null;
+                    if (itemInfo instanceof com.android.launcher3.AppInfo) {
+                        componentName = ((com.android.launcher3.AppInfo) itemInfo).componentName;
+                    } else if (itemInfo instanceof ShortcutInfo) {
+                        componentName = ((ShortcutInfo) itemInfo).intent.getComponent();
+                    }
+
+                    if (componentName != null) {
+                        launcher.startEdit(itemInfo, componentName);
+                    }
+                }
+            };
+        }
+    }
+
+    protected static void dismissTaskMenuView(BaseDraggingActivity activity) {
+        AbstractFloatingView.closeOpenViews(activity, true,
+            AbstractFloatingView.TYPE_ALL & ~AbstractFloatingView.TYPE_REBIND_SAFE);
     }
 }
