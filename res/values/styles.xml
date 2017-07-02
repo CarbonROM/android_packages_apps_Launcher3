@@ -308,7 +308,7 @@
     </style>
 
     <style name="CellStyleDefault">
-        <item name="iconDrawablePadding">7dp</item>
+        <item name="iconDrawablePadding">4dp</item>
     </style>
 
     <style name="AllAppsStyleDefault">
