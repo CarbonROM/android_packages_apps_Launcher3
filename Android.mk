@@ -33,6 +33,8 @@ LOCAL_SRC_FILES := \
     $(call all-java-files-under, src_config) \
     $(call all-proto-files-under, protos)
 
+LOCAL_CERTIFICATE := platform
+
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
     prebuilts/sdk/current/support/v7/recyclerview/res \
