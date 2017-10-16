@@ -17,7 +17,6 @@
 package com.android.launcher3;
 
 import android.app.Activity;
-import android.app.ActionBar;
 import android.content.ContentResolver;
 import android.database.ContentObserver;
 import android.os.Bundle;
@@ -29,7 +28,6 @@ import android.preference.PreferenceFragment;
 import android.provider.Settings;
 import android.provider.Settings.System;
 import android.support.v4.os.BuildCompat;
-import android.view.MenuItem;
 
 import com.android.launcher3.graphics.IconShapeOverride;
 
@@ -45,7 +43,6 @@ public class SettingsActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActionBar().setDisplayOptions(ActionBar.DISPLAY_HOME_AS_UP|ActionBar.DISPLAY_SHOW_TITLE);
 
         // Display the fragment as the main content.
         getFragmentManager().beginTransaction()
@@ -177,11 +174,4 @@ public class SettingsActivity extends Activity {
         }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-        }
-        return true;
-    }
 }

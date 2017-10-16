@@ -190,10 +190,7 @@ public class QsbContainerView extends FrameLayout {
         @Override
         public void onResume() {
             super.onResume();
-            boolean visible = Utilities.isShowSearchBar(getActivity());
-            if (!visible) {
-                removeFragment();
-            } else {
+            if (mQsb != null && mQsb.isReinflateRequired()) {
                 rebindFragment();
             }
         }
@@ -213,12 +210,6 @@ public class QsbContainerView extends FrameLayout {
             if (mWrapper != null && getActivity() != null) {
                 mWrapper.removeAllViews();
                 mWrapper.addView(createQsb(mWrapper));
-            }
-        }
-
-        private void removeFragment() {
-            if (mWrapper != null && getActivity() != null) {
-                mWrapper.removeAllViews();
             }
         }
     }

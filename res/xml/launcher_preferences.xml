@@ -91,10 +91,6 @@
             android:defaultValue="true"
             android:persistent="true" />
 
-        <SwitchPreference
-            android:key="pref_searchBar"
-            android:title="@string/search_bar_title"
-            android:defaultValue="true"
-            android:persistent="true" />
     </PreferenceCategory>
+
 </PreferenceScreen>

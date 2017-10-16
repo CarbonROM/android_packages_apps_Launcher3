@@ -125,7 +125,6 @@ public final class Utilities {
             TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
     public static final String ALLOW_ROTATION_PREFERENCE_KEY = "pref_allowRotation";
-    public static final String SHOW_SEARCH_BAR_PREFERENCE_KEY = "pref_searchBar";
     public static final String ADAPTIVE_ICONS_PREFERENCE_KEY = "pref_adaptiveIcons";
     public static final String ICON_PACK_PREFERENCE_KEY = "pref_iconPackPackage";
     public static final String LEGACY_ICON_PREFERENCE_KEY = "pref_legacyIcons";
@@ -141,10 +140,6 @@ public final class Utilities {
     public static boolean isAllowRotationPrefEnabled(Context context) {
         return getPrefs(context).getBoolean(ALLOW_ROTATION_PREFERENCE_KEY,
                 getAllowRotationDefaultValue(context));
-    }
-
-    public static boolean isShowSearchBar(Context context) {
-        return getPrefs(context).getBoolean(SHOW_SEARCH_BAR_PREFERENCE_KEY, FeatureFlags.QSB_ON_FIRST_SCREEN);
     }
 
     public static boolean isAdaptiveIcons(Context context) {
