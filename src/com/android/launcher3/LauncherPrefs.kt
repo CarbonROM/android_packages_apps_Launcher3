@@ -367,6 +367,12 @@ class LauncherPrefs(private val encryptedContext: Context) {
                 MODE_PRIVATE
             )
         }
+
+        @JvmStatic
+        fun isWorkspaceEditAllowed(context: Context): Boolean {
+            var prefs = getPrefs(context.getApplicationContext())
+            return !prefs.getBoolean(InvariantDeviceProfile.KEY_WORKSPACE_LOCK, false)
+        }
     }
 }
 
