@@ -146,6 +146,74 @@
     <string name="title_disable_suggestions_prompt">¿Desactivar las sugerencias de aplicaciones?</string>
     <string name="msg_disable_suggestions_prompt">No se mostrarán sugerencias en la parte superior de tu lista de aplicaciones, y los datos de uso utilizados para crearlas se borrarán de forma permanente.</string>
     <string name="label_turn_off_suggestions">DESACTIVAR</string>
+	
+    <!-- Preference categories -->
+    <string name="home_category_title">Pantalla de inicio</string>
+    <string name="app_drawer_category_title">Caja de aplic.</string>
+    <string name="icon_category_title">Iconos de aplic.</string>
+    <string name="widget_category_title">Widgets</string>
 
-    <string name="icon_shape_rounded_square">Cuadrado redondeado</string>
+    <!-- About -->
+    <string name="about_credits">Créditos</string>
+    <string name="about_credits_ok">OK</string>
+    <string name="about_amirzaidi_title">Pixel Launcher 3 mod</string>
+    <string name="about_amirzaidi_summary">Ingeniería inversa del Pixel launcher en el Launcher 3 por Amir Zaidi, modificado para ABC.</string>
+    <string name="about_amirzaidi_url">https://github.com/ezio84</string>
+
+    <!-- Hidden app -->
+    <string name="hide_app">Ocultar aplic.</string>
+    <string name="hide_app_sum">Oculta aplic. de la caja de aplicaciones</string>
+    <string name="hide_app_selected">&#160;seleccionada</string>
+    <string name="hidden_app">Todas las aplic.</string>
+    <string name="hide_selected">Ocultar aplic. seleccionadas</string>
+    <string name="more">Mas</string>
+    <string name="reset_hidden_apps">Reiniciar todo</string>
+    <string name="reset_hidden_apps_done">Ocultar aplic. ahora disponibles</string>
+
+    <!-- Swipe up indicator -->
+    <string name="show_swipeup_arrow">Indicador deslizar hacia arriba</string>
+    <string name="show_swipeup_arrow_summary">Mostrar la flecha sobre el dock indicando deslizar hacia arriba</string>
+
+
+    <string name="pref_show_clock_weather">Fecha y clima en pantalla de inicio</string>
+    <string name="pref_show_clock_weather_both">Mostrar ambos fecha y clima</string>
+    <string name="pref_show_clock_weather_nothing">No\ mostrar</string>
+    <string name="pref_show_clock_weather_clock_only">Mostrar solo fecha</string>
+    <string name="pref_show_clock_weather_weather_only">Mostrar solo clima</string>
+
+    <!-- Hide/Show search bars -->
+    <string name="bottom_search_bar_title">Barra de búsqueda inferior</string>
+    <string name="bottom_search_bar_summary">Muestra al inferior de la pantalla la barra de búsquedas</string>
+    <string name="top_search_bar_title">Barra de búsqueda superior</string>
+    <string name="top_search_bar_summary">Muestra la barra de búsqueda inferior encima de el cajón de aplicaciones</string>
+
+    <string name="num_default">Defecto</string>
+    <string name="num_three">Tres</string>
+    <string name="num_four">Cuatro</string>
+    <string name="num_five">Cinco</string>
+    <string name="num_six">Seis</string>
+    <string name="num_seven">Siete</string>
+
+    <string-array name="grid_names">
+        <item>@string/num_default</item>
+        <item>@string/num_three</item>
+        <item>@string/num_four</item>
+        <item>@string/num_five</item>
+        <item>@string/num_six</item>
+        <item>@string/num_seven</item>
+    </string-array>
+
+    <string-array name="grid_values">
+        <item>defecto</item>
+        <item>tres</item>
+        <item>cuatro</item>
+        <item>cinco</item>
+        <item>seis</item>
+        <item>siete</item>
+    </string-array>
+
+    <string name="grid_category_title">Columnas y filas</string>
+    <string name="number_of_columns_title">Numero de columnas</string>
+    <string name="number_of_rows_title">Numero de filas</string>
+    <string name="number_of_hotseat_title">Iconos frecuentes</string>
 </resources>
