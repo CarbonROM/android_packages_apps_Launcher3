@@ -216,4 +216,11 @@
     <string name="number_of_columns_title">Numero de columnas</string>
     <string name="number_of_rows_title">Numero de filas</string>
     <string name="number_of_hotseat_title">Iconos frecuentes</string>
+
+    <string name="icon_shape_rounded_square">Cuadrado redondo</string>
+
+    <string name="action_edit">Editar</string>
+
+    <string name="pref_override_icon_shape_dark_bg_title">Usar aspecto oscuro</string>
+    <string name="pref_override_icon_shape_dark_bg_summary">Usa un color de fondo oscuto para los iconos sin su propio color de forma</string>
 </resources>
