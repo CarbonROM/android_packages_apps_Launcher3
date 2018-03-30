@@ -49,7 +49,6 @@ class MultiSelectRecyclerViewAdapter extends SelectableAdapter<MultiSelectRecycl
         mClickListener = clickListener;
         mPackageManager = context.getPackageManager();
 
-        mBlackList.add("com.google.android.googlequicksearchbox");
         mBlackList.add("com.google.android.apps.wallpaper");
         mBlackList.add("com.google.android.launcher");
         mPackages = new ArrayList<>();
