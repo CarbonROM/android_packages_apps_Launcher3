@@ -381,7 +381,7 @@
     <string name="bottom_search_bar_title">Bottom search bar</string>
     <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
     <string name="top_search_bar_title">Top search bar</string>
-    <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
+    <string name="top_search_bar_summary">Show the search bar at the top of the app drawer</string>
 
     <string name="num_default">Default</string>
     <string name="num_three">Three</string>
