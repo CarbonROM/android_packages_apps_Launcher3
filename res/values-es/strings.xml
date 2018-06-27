@@ -185,7 +185,6 @@
     <string name="bottom_search_bar_title">Barra de búsqueda inferior</string>
     <string name="bottom_search_bar_summary">Muestra al inferior de la pantalla la barra de búsquedas</string>
     <string name="top_search_bar_title">Barra de búsqueda superior</string>
-    <string name="top_search_bar_summary">Muestra la barra de búsqueda inferior encima de el cajón de aplicaciones</string>
 
     <string name="num_default">Defecto</string>
     <string name="num_three">Tres</string>

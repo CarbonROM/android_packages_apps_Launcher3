@@ -190,7 +190,6 @@
     <string name="bottom_search_bar_title">Barra di ricerca inferiore</string>
     <string name="bottom_search_bar_summary">Mostra la barra di ricerca sotto la dock</string>
     <string name="top_search_bar_title">Barra di ricerca superiore</string>
-    <string name="top_search_bar_summary">Mostra la barra di ricerca in alto nell\'app drawer</string>
 
     <string name="num_default">Predefinito</string>
     <string name="num_three">Tre</string>
