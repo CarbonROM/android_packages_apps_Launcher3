@@ -183,7 +183,6 @@
     <string name="bottom_search_bar_title">Нижняя панель поиска</string>
     <string name="bottom_search_bar_summary">Отображать панель поиска в док-баре</string>
     <string name="top_search_bar_title">Верхняя панель поиска</string>
-    <string name="top_search_bar_summary">Отображать панель поиска в верхней части меню приложений</string>
 
     <string name="num_default">По умолчанию</string>
     <string name="num_three">Три</string>
