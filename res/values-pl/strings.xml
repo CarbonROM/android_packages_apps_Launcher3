@@ -270,8 +270,35 @@
   <string name="msg_disable_suggestions_prompt">"Sugestie nie będą pojawiać się u góry listy Twoich aplikacji, a dane o użytkowaniu służące do ich utworzenia zostaną trwale usunięte."</string>
   <string name="label_turn_off_suggestions">WYŁĄCZ</string>
   <!-- Preference categories -->
+  <string name="home_category_title">Ekran główny</string>
+  <string name="app_drawer_category_title">Menu aplikacji</string>
+  <string name="icon_category_title">Ikony aplikacji</string>
+  <string name="widget_category_title">Widżety</string>
+  <string name="other_category_title">Inne</string>
+  <string name="other_category_summary">Różne konfiguracje</string>
   <!-- About -->
+  <string name="about_credits">Informacje o autorach</string>
+  <string name="about_credits_ok">OK</string>
   <!-- Hidden app -->
+  <string name="hide_app">Ukryj aplikacje</string>
+  <string name="hidden_app">Wszystkie aplikacje</string>
+  <string name="more">Więcej</string>
   <!-- Swipe up indicator -->
+  <string name="pref_show_clock_weather_nothing">Nie pokazuj</string>
   <!-- Hide/Show search bars -->
+  <string name="num_three">Trzy</string>
+  <string name="num_four">Cztery</string>
+  <string name="num_five">Pięć</string>
+  <string name="num_six">Sześć</string>
+  <string name="num_seven">Siedem</string>
+  <string-array name="grid_values">
+    <item>default</item>
+    <item>trzy</item>
+    <item>cztery</item>
+    <item>pięć</item>
+    <item>sześć</item>
+    <item>siedem</item>
+  </string-array>
+  <string name="grid_category_title">Kolumny i wiersze</string>
+  <string name="action_edit">Edycja</string>
 </resources>

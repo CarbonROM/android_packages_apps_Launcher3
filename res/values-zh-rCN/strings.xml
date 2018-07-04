@@ -270,8 +270,19 @@
   <string name="msg_disable_suggestions_prompt">"关闭后，系统将不会在您的应用列表顶部显示推荐应用，并且将永久清空用于生成这些信息的使用数据。"</string>
   <string name="label_turn_off_suggestions">关闭</string>
   <!-- Preference categories -->
+  <string name="home_category_title">主屏幕</string>
+  <string name="app_drawer_category_title">应用程序抽屉</string>
+  <string name="icon_category_title">应用程序图标</string>
+  <string name="widget_category_title">微件</string>
+  <string name="other_category_title">其他</string>
+  <string name="other_category_summary">杂项配置</string>
   <!-- About -->
+  <string name="about_credits">贡献者名单</string>
+  <string name="about_credits_ok">确定</string>
   <!-- Hidden app -->
+  <string name="hide_app">隐藏应用程序</string>
   <!-- Swipe up indicator -->
+  <string name="pref_show_clock_weather_clock_only">只显示日期</string>
+  <string name="pref_show_clock_weather_weather_only">只显示天气</string>
   <!-- Hide/Show search bars -->
 </resources>
