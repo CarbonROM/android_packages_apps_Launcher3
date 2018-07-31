@@ -184,6 +184,7 @@ import com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver;
 import com.android.systemui.unfold.system.ActivityManagerActivityTypeProvider;
 import com.android.systemui.unfold.system.DeviceStateManagerFoldProvider;
 import com.android.systemui.unfold.updates.RotationChangeProvider;
+import com.android.systemui.plugins.shared.LauncherOverlayManager;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -230,6 +231,11 @@ public class QuickstepLauncher extends Launcher {
     private SafeCloseable mViewCapture;
 
     private boolean mEnableWidgetDepth;
+
+    @Override
+    protected LauncherOverlayManager getDefaultOverlay() {
+        return new OverlayCallbackImpl(this);
+    }
 
     @Override
     protected void setupViews() {
