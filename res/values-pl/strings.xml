@@ -281,18 +281,29 @@
   <string name="about_credits_ok">OK</string>
   <!-- Hidden app -->
   <string name="hide_app">Ukryj aplikacje</string>
+  <string name="hide_app_sum">Ukryj aplikacje w menu aplikacji</string>
   <string name="hidden_app">Wszystkie aplikacje</string>
+  <string name="hide_selected">Ukryj wybrane aplikacje</string>
   <string name="more">Więcej</string>
+  <string name="reset_hidden_apps">Resetuj wszystko</string>
+  <string name="reset_hidden_apps_done">Ukryte aplikacje są teraz dostępne</string>
   <!-- Swipe up indicator -->
+  <string name="show_swipeup_arrow">Przesuń wskaźnik w górę</string>
+  <string name="pref_show_clock_weather_both">Pokaż datę i pogodę</string>
   <string name="pref_show_clock_weather_nothing">Nie pokazuj</string>
+  <string name="pref_show_clock_weather_clock_only">Pokaż tylko datę</string>
+  <string name="pref_show_clock_weather_weather_only">Pokaż tylko pogodę</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Dolny pasek wyszukiwania</string>
+  <string name="top_search_bar_title">Górny pasek wyszukiwania</string>
+  <string name="num_default">Domyślnie</string>
   <string name="num_three">Trzy</string>
   <string name="num_four">Cztery</string>
   <string name="num_five">Pięć</string>
   <string name="num_six">Sześć</string>
   <string name="num_seven">Siedem</string>
   <string-array name="grid_values">
-    <item>default</item>
+    <item>domyślnie</item>
     <item>trzy</item>
     <item>cztery</item>
     <item>pięć</item>

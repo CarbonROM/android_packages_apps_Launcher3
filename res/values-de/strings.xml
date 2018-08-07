@@ -251,20 +251,24 @@
   <string name="action_dismiss_notification">Schließen</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Benachrichtigung geschlossen</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
   <string name="smartspace_preferences">Einstellungen</string>
   <string name="label_search">Suchen</string>
   <string name="label_voice_search">Sprachsuche</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Icon Pack</string>
   <string name="state_loading">Anwenden…</string>
   <string name="smartspace_preferences_in_settings">Überblick</string>
   <string name="smartspace_preferences_in_settings_desc">Oben auf deinem Startbildschirm</string>
   <string name="title_show_google_app">%1$s anzeigen</string>
+  <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">Links neben dem Haupt-Startbildschirm</string>
   <string name="about">Info</string>
   <string name="title_google_app">Google App</string>
   <string name="title_app_suggestions">App-Vorschläge anzeigen</string>
   <string name="summary_app_suggestions">Oben in der Liste \"Alle Apps\"</string>
   <string name="about_app_version">Version</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">App-Vorschläge deaktivieren?</string>
   <string name="msg_disable_suggestions_prompt">"Vorschläge werden nicht oben in deiner Apps-Liste angezeigt und die zu deiner Erstellung verwendeten Nutzungsdaten werden endgültig gelöscht."</string>
@@ -279,7 +283,9 @@
   <!-- About -->
   <string name="about_credits">Danksagungen</string>
   <string name="about_credits_ok">OK</string>
+  <string name="about_amirzaidi_title">Pixel-Launcher 3 mod</string>
   <string name="about_amirzaidi_summary">Reverse-Engineered Pixel Launcher Funktionen für Launcher 3 von Amir Zaidi, optimiert für ABC.</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
   <string name="hide_app">Apps ausblenden</string>
   <string name="hide_app_sum">Apps auf dem App-Drawer ausblenden</string>
@@ -308,6 +314,14 @@
   <string name="num_five">Fünf</string>
   <string name="num_six">Sechs</string>
   <string name="num_seven">Sieben</string>
+  <string-array name="grid_names">
+    <item>@string/num_default</item>
+    <item>@string/num_three</item>
+    <item>@string/num_four</item>
+    <item>@string/num_five</item>
+    <item>@string/num_six</item>
+    <item>@string/num_seven</item>
+  </string-array>
   <string-array name="grid_values">
     <item>standard</item>
     <item>drei</item>
@@ -324,4 +338,5 @@
   <string name="action_edit">Bearbeiten</string>
   <string name="pref_override_icon_shape_dark_bg_title">Nutze dunkle Form</string>
   <string name="pref_override_icon_shape_dark_bg_summary">Verwende dunklen Hintergrund für Icons one eigene Form-Farbe</string>
+  <string name="smartspace_hours_mins">%1$s - %2$s</string>
 </resources>

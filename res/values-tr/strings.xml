@@ -278,7 +278,7 @@
   <string name="home_category_title">Ana ekran</string>
   <string name="app_drawer_category_title">Uygulama menüsü</string>
   <string name="icon_category_title">Uygulama simgeleri</string>
-  <string name="widget_category_title">Widget\'lar</string>
+  <string name="widget_category_title">Widget\'ler</string>
   <string name="other_category_title">Diğer</string>
   <string name="other_category_summary">Çeşitli ayarlar</string>
   <!-- About -->
@@ -288,14 +288,14 @@
   <string name="about_amirzaidi_summary">Ters mühendislik pixel başlatıcısı, ABC için özelleştirilmiş Amir Zaidi tarafından Launcher 3 üzerine özellikler.</string>
   <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
-  <string name="hide_app">Uygulamaları sakla</string>
-  <string name="hide_app_sum">Uygulamaları uygulama menüsünde göstermeyin</string>
-  <string name="hide_app_selected">&#160;tane seçildi</string>
+  <string name="hide_app">Uygulamaları gizle</string>
+  <string name="hide_app_sum">Uygulamaları uygulama menüsünde gizle</string>
+  <string name="hide_app_selected">&#160;seçildi</string>
   <string name="hidden_app">Tüm uygulamalar</string>
-  <string name="hide_selected">Seçilen uygulama(lar)ı sakla</string>
+  <string name="hide_selected">Seçilen uygulama(lar)ı gizle</string>
   <string name="more">Daha fazla</string>
-  <string name="reset_hidden_apps">Hepsini sıfırla</string>
-  <string name="reset_hidden_apps_done">Gizli uygulamalar şimdi mevcut</string>
+  <string name="reset_hidden_apps">Tümünü sıfırla</string>
+  <string name="reset_hidden_apps_done">Gizli uygulamalar artık mevcut</string>
   <!-- Swipe up indicator -->
   <string name="show_swipeup_arrow">Yukarı kaydırma işareti</string>
   <string name="show_swipeup_arrow_summary">Alt menünün üstünde yukarı ok işaretini göster</string>

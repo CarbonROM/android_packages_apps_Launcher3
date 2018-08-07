@@ -251,27 +251,92 @@
   <string name="action_dismiss_notification">Opusti</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Obvestilo je bilo opuščeno</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
   <string name="smartspace_preferences">Nastavitve</string>
   <string name="label_search">Iskanje</string>
   <string name="label_voice_search">Glasovno iskanje</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Paket z ikonami</string>
   <string name="state_loading">Uveljavljanje…</string>
   <string name="smartspace_preferences_in_settings">Hitri pregled</string>
   <string name="smartspace_preferences_in_settings_desc">Na vrhu začetnega zaslona</string>
   <string name="title_show_google_app">Prikaži: %1$s</string>
+  <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">Levo od glavnega začetnega zaslona</string>
   <string name="about">Vizitka</string>
   <string name="title_google_app">Aplikacija Google</string>
   <string name="title_app_suggestions">Prikaz predlogov za aplikacije</string>
   <string name="summary_app_suggestions">Na vrhu seznama »Vse aplikacije«</string>
   <string name="about_app_version">Različica</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Zaganjalnik Pixel</string>
   <string name="title_disable_suggestions_prompt">Želite izklopiti predloge za aplikacije?</string>
   <string name="msg_disable_suggestions_prompt">"Predlogi ne bodo prikazani na vrhu seznama aplikacij, podatki o prenesenih podatkih, uporabljeni pri njihovem ustvarjanju, pa bodo trajno izbrisani."</string>
   <string name="label_turn_off_suggestions">IZKLOP</string>
   <!-- Preference categories -->
+  <string name="home_category_title">Začetni zaslon</string>
+  <string name="app_drawer_category_title">Predalnik aplikacij</string>
+  <string name="icon_category_title">Ikone aplikacij</string>
+  <string name="widget_category_title">Pripomočki</string>
+  <string name="other_category_title">Drugo</string>
+  <string name="other_category_summary">Razne nastavitve</string>
   <!-- About -->
+  <string name="about_credits">Zasluge</string>
+  <string name="about_credits_ok">Ok</string>
+  <string name="about_amirzaidi_title">Pixel Zaganjalnik 3 mod</string>
+  <string name="about_amirzaidi_summary">Funkcije Pixel Launcher dodane v Launcher 3. Obratno inženirstvo - Amir Zaidi, prirejeno za ABC.</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
+  <string name="hide_app">Skrij aplikacije</string>
+  <string name="hide_app_sum">Skrij aplikacije iz predalnika aplikacij</string>
+  <string name="hide_app_selected">&#160;izbran</string>
+  <string name="hidden_app">Vse aplikacije</string>
+  <string name="hide_selected">Skrij izbrane aplikacije</string>
+  <string name="more">Več</string>
+  <string name="reset_hidden_apps">Ponastavi vse</string>
+  <string name="reset_hidden_apps_done">Skrite aplikacije so sedaj na voljo</string>
   <!-- Swipe up indicator -->
+  <string name="show_swipeup_arrow">Kazalec drsanja navzgor</string>
+  <string name="show_swipeup_arrow_summary">Pokaži puščico drsanja navzgor na vrhu sidrišča</string>
+  <string name="pref_show_clock_weather">Datum in vreme na domačem zaslonu</string>
+  <string name="pref_show_clock_weather_both">Prikaži datum in vreme</string>
+  <string name="pref_show_clock_weather_nothing">Ne pokaži</string>
+  <string name="pref_show_clock_weather_clock_only">Pokaži samo datum</string>
+  <string name="pref_show_clock_weather_weather_only">Pokaži samo vreme</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Spodnja vrstica iskanja</string>
+  <string name="bottom_search_bar_summary">Pokaži spodnjo vrstico iskanja na dnu sidrišča</string>
+  <string name="top_search_bar_title">Zgornja vrstica iskanja</string>
+  <string name="top_search_bar_summary">Pokaži vrstico iskanja na vrhu predalnika aplikacij</string>
+  <string name="num_default">Privzeto</string>
+  <string name="num_three">Tri</string>
+  <string name="num_four">Štiri</string>
+  <string name="num_five">Pet</string>
+  <string name="num_six">Šest</string>
+  <string name="num_seven">Sedem</string>
+  <string-array name="grid_names">
+    <item>@string/num_default</item>
+    <item>@string/num_three</item>
+    <item>@string/num_four</item>
+    <item>@string/num_five</item>
+    <item>@string/num_six</item>
+    <item>@string/num_seven</item>
+  </string-array>
+  <string-array name="grid_values">
+    <item>privzeto</item>
+    <item>tri</item>
+    <item>štiri</item>
+    <item>pet</item>
+    <item>šest</item>
+    <item>sedem</item>
+  </string-array>
+  <string name="grid_category_title">Stolpci in vrstice</string>
+  <string name="number_of_columns_title">Stolpci mreže</string>
+  <string name="number_of_rows_title">Vrstice mreže</string>
+  <string name="number_of_hotseat_title">Ikone sidrišča</string>
+  <string name="icon_shape_rounded_square">Zaobljen kvadrat</string>
+  <string name="action_edit">Uredi</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Uporabi temno obliko</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Uporabi temno barvo ozadja za ikone brez lastne barve oblike</string>
+  <string name="smartspace_hours_mins">%1$s %2$s</string>
 </resources>

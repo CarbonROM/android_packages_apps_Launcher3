@@ -163,7 +163,7 @@
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
   <string name="icon_shape_override_label">アイコンの形の変更</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">システムのデフォルトを使用</string>
+  <string name="icon_shape_system_default">システムの既定を使用</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
   <string name="icon_shape_square">スクエア</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->

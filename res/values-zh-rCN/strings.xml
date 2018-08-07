@@ -251,20 +251,24 @@
   <string name="action_dismiss_notification">关闭</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">已关闭通知</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
   <string name="smartspace_preferences">偏好设置</string>
   <string name="label_search">搜索</string>
   <string name="label_voice_search">语音搜索</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">图标包</string>
   <string name="state_loading">应用中…</string>
   <string name="smartspace_preferences_in_settings">一目了然</string>
   <string name="smartspace_preferences_in_settings_desc">在主屏幕顶部</string>
   <string name="title_show_google_app">显示 %1$s</string>
+  <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">位于主屏幕左侧</string>
   <string name="about">关于</string>
   <string name="title_google_app">Google 应用</string>
   <string name="title_app_suggestions">显示应用推荐</string>
   <string name="summary_app_suggestions">位于“所有应用”列表的顶部</string>
   <string name="about_app_version">版本</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">要关闭应用推荐吗？</string>
   <string name="msg_disable_suggestions_prompt">"关闭后，系统将不会在您的应用列表顶部显示推荐应用，并且将永久清空用于生成这些信息的使用数据。"</string>
@@ -279,10 +283,60 @@
   <!-- About -->
   <string name="about_credits">贡献者名单</string>
   <string name="about_credits_ok">确定</string>
+  <string name="about_amirzaidi_title">Pixel Launcher 3 mod</string>
+  <string name="about_amirzaidi_summary">反向工程Pixel launcher功能由Amir Zaidi发布到Launcher 3上，为ABC定制。</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
   <string name="hide_app">隐藏应用程序</string>
+  <string name="hide_app_sum">从抽屉里隐藏应用</string>
+  <string name="hide_app_selected">&#160;选定</string>
+  <string name="hidden_app">所有应用</string>
+  <string name="hide_selected">隐藏选定的应用(s)</string>
+  <string name="more">更多</string>
+  <string name="reset_hidden_apps">重置所有</string>
+  <string name="reset_hidden_apps_done">隐藏的应用现在可用</string>
   <!-- Swipe up indicator -->
+  <string name="show_swipeup_arrow">向上滑动指示器</string>
+  <string name="show_swipeup_arrow_summary">在Dock栏上显示向上滑动图标</string>
+  <string name="pref_show_clock_weather">主页屏幕日期和天气</string>
+  <string name="pref_show_clock_weather_both">显示日期和天气</string>
+  <string name="pref_show_clock_weather_nothing">不显示</string>
   <string name="pref_show_clock_weather_clock_only">只显示日期</string>
   <string name="pref_show_clock_weather_weather_only">只显示天气</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">底部搜索栏</string>
+  <string name="bottom_search_bar_summary">在Dock栏底部显示底部搜索栏</string>
+  <string name="top_search_bar_title">顶部搜索栏</string>
+  <string name="top_search_bar_summary">显示应用抽屉顶部的搜索栏</string>
+  <string name="num_default">默认​​​​​</string>
+  <string name="num_three">三</string>
+  <string name="num_four">四</string>
+  <string name="num_five">五</string>
+  <string name="num_six">六</string>
+  <string name="num_seven">七</string>
+  <string-array name="grid_names">
+    <item>@string/num_default</item>
+    <item>@string/num_three</item>
+    <item>@string/num_four</item>
+    <item>@string/num_five</item>
+    <item>@string/num_six</item>
+    <item>@string/num_seven</item>
+  </string-array>
+  <string-array name="grid_values">
+    <item>默认</item>
+    <item>三</item>
+    <item>四</item>
+    <item>五</item>
+    <item>六</item>
+    <item>七</item>
+  </string-array>
+  <string name="grid_category_title">列和行</string>
+  <string name="number_of_columns_title">网格列</string>
+  <string name="number_of_rows_title">网格行</string>
+  <string name="number_of_hotseat_title">Hotseat 图标</string>
+  <string name="icon_shape_rounded_square">圆角正方形</string>
+  <string name="action_edit">编辑</string>
+  <string name="pref_override_icon_shape_dark_bg_title">使用深色形状</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">对没有自己形状颜色的图标使用深色背景色</string>
+  <string name="smartspace_hours_mins">%1$s %2$s</string>
 </resources>

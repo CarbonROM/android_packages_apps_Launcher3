@@ -33,4 +33,5 @@
   <string name="loading">Caricamento, attendere prego</string>
   <string name="icon_chooser">Scelta icona</string>
   <string name="icon_search">Cerca icone</string>
+  <string name="icon_pack_updated">Il pack delle icone del launcher è stato aggiornato, potrebbero essere disponibili nuove icone per le tue app.</string>
 </resources>
