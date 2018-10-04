@@ -141,7 +141,7 @@
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
   <string name="allow_rotation_title">ホーム画面の回転を許可</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">スマートフォンが回転したとき</string>
+  <string name="allow_rotation_desc">スマートフォンが回転した時</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
   <string name="allow_rotation_blocked_desc">現在の [ディスプレイ] 設定では回転を使用できません</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
@@ -159,7 +159,7 @@
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
   <string name="auto_add_shortcuts_label">ホーム画面にアイコンを追加</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-  <string name="auto_add_shortcuts_description">新しいアプリをダウンロードしたときに</string>
+  <string name="auto_add_shortcuts_description">新しいアプリをダウンロードした時</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
   <string name="icon_shape_override_label">アイコンの形の変更</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
@@ -266,7 +266,7 @@
   <string name="about">概要</string>
   <string name="title_google_app">Google アプリ</string>
   <string name="title_app_suggestions">アプリの候補の表示</string>
-  <string name="summary_app_suggestions">[すべてのアプリ] リストの一番上</string>
+  <string name="summary_app_suggestions">[全てのアプリ] リストの一番上</string>
   <string name="about_app_version">バージョン</string>
   <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>

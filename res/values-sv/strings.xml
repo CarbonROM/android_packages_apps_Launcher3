@@ -254,6 +254,7 @@
   <string name="smartspace_preferences">Inställningar</string>
   <string name="label_search">Sök</string>
   <string name="label_voice_search">Röstsökning</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Ikonpaket</string>
   <string name="state_loading">Tillämpar…</string>
   <string name="smartspace_preferences_in_settings">Snabböversikt</string>
@@ -265,13 +266,38 @@
   <string name="title_app_suggestions">Visa appförslag</string>
   <string name="summary_app_suggestions">Högst upp i listan Alla appar</string>
   <string name="about_app_version">Version</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Översikt för Pixel</string>
   <string name="title_disable_suggestions_prompt">Vill du stänga av appförslag?</string>
   <string name="msg_disable_suggestions_prompt">"Förslag visas inte längst upp i applistan och användaruppgifterna som används för att skapa dem raderas permanent."</string>
   <string name="label_turn_off_suggestions">INAKTIVERA</string>
   <!-- Preference categories -->
+  <string name="home_category_title">Hemskärm</string>
+  <string name="icon_category_title">App-ikoner</string>
+  <string name="widget_category_title">Widgetar</string>
+  <string name="other_category_title">Annat</string>
+  <string name="other_category_summary">Diverse konfigurationer</string>
   <!-- About -->
+  <string name="about_credits">Medverkande</string>
+  <string name="about_credits_ok">OK</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
+  <string name="hide_app">Göm appar</string>
+  <string name="hide_app_selected">&#160;vald</string>
+  <string name="hidden_app">Alla appar</string>
+  <string name="more">Fler</string>
+  <string name="reset_hidden_apps">Återställ alla</string>
+  <string name="reset_hidden_apps_done">Gömda appar är nu tillgängliga</string>
   <!-- Swipe up indicator -->
+  <string name="pref_show_clock_weather_both">Visa både datum och väder</string>
+  <string name="pref_show_clock_weather_nothing">Visa inte</string>
+  <string name="pref_show_clock_weather_clock_only">Visa endast datum</string>
+  <string name="pref_show_clock_weather_weather_only">Visa endast väder</string>
   <!-- Hide/Show search bars -->
+  <string name="num_default">Standard</string>
+  <string name="num_three">Tre</string>
+  <string name="num_four">Fyra</string>
+  <string name="num_five">Fem</string>
+  <string name="num_six">Sex</string>
+  <string name="num_seven">Sju</string>
 </resources>

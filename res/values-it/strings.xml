@@ -251,20 +251,24 @@
   <string name="action_dismiss_notification">Ignora</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Notifica ignorata</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEdMMM</string>
   <string name="smartspace_preferences">Preferenze</string>
   <string name="label_search">Cerca</string>
   <string name="label_voice_search">Ricerca vocale</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Pacchetto icone</string>
   <string name="state_loading">Applicazione...</string>
   <string name="smartspace_preferences_in_settings">Riepilogo</string>
   <string name="smartspace_preferences_in_settings_desc">Nella parte superiore della tua schermata Home</string>
   <string name="title_show_google_app">Mostra %1$s</string>
+  <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">A sinistra della schermata Home principale</string>
   <string name="about">Informazioni</string>
   <string name="title_google_app">App Google</string>
   <string name="title_app_suggestions">Mostra suggerimenti di app</string>
   <string name="summary_app_suggestions">In cima all\'elenco Tutte le app</string>
   <string name="about_app_version">Versione</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">Disattivare i suggerimenti di app?</string>
   <string name="msg_disable_suggestions_prompt">"I suggerimenti non verranno mostrati in cima all'elenco delle tue app e i dati sull'utilizzo utilizzati per crearli verranno cancellati definitivamente."</string>
@@ -279,6 +283,8 @@
   <!-- About -->
   <string name="about_credits">Crediti</string>
   <string name="about_credits_ok">OK</string>
+  <string name="about_amirzaidi_title">Pixel Launcher 3 mod</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
   <string name="hide_app">Nascondi apps</string>
   <string name="hide_app_sum">Nascondi apps nell\'app drawer</string>
@@ -286,6 +292,7 @@
   <string name="hidden_app">Tutte le apps</string>
   <string name="hide_selected">Nascondi le app selezionate</string>
   <string name="more">Altro</string>
+  <string name="reset_hidden_apps">Ripristina tutto</string>
   <string name="reset_hidden_apps_done">Tutte le apps sono ora disponibili</string>
   <!-- Swipe up indicator -->
   <string name="show_swipeup_arrow">Indicatore swipe</string>
@@ -299,17 +306,36 @@
   <string name="bottom_search_bar_title">Barra di ricerca inferiore</string>
   <string name="bottom_search_bar_summary">Mostra la barra di ricerca sotto la dock</string>
   <string name="top_search_bar_title">Barra di ricerca superiore</string>
+  <string name="top_search_bar_summary">Mostra la barra di ricerca in alto nell\'app drawer</string>
   <string name="num_default">Predefinito</string>
   <string name="num_three">Tre</string>
   <string name="num_four">Quattro</string>
   <string name="num_five">Cinque</string>
   <string name="num_six">Sei</string>
   <string name="num_seven">Sette</string>
+  <string-array name="grid_names">
+    <item>@string/num_default</item>
+    <item>@string/num_three</item>
+    <item>@string/num_four</item>
+    <item>@string/num_five</item>
+    <item>@string/num_six</item>
+    <item>@string/num_seven</item>
+  </string-array>
+  <string-array name="grid_values">
+    <item>predefinito</item>
+    <item>tre</item>
+    <item>quattro</item>
+    <item>cinque</item>
+    <item>sei</item>
+    <item>sette</item>
+  </string-array>
   <string name="grid_category_title">Griglia</string>
   <string name="number_of_columns_title">Colonne della griglia</string>
   <string name="number_of_rows_title">Righe della griglia</string>
   <string name="number_of_hotseat_title">Icone dock</string>
   <string name="icon_shape_rounded_square">Quadrato arrotondato</string>
+  <string name="action_edit">Modifica</string>
   <string name="pref_override_icon_shape_dark_bg_title">Usa sfondo scuro</string>
   <string name="pref_override_icon_shape_dark_bg_summary">Usa un colore scuro come sfondo per la forma delle icone che non hanno un proprio colore definito</string>
+  <string name="smartspace_hours_mins">%1$s:%2$s</string>
 </resources>

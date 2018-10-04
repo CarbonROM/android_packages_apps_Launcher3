@@ -251,27 +251,92 @@
   <string name="action_dismiss_notification">Loại bỏ</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Đã loại bỏ thông báo</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
   <string name="smartspace_preferences">Tùy chọn</string>
   <string name="label_search">Tìm kiếm</string>
   <string name="label_voice_search">Tìm kiếm bằng giọng nói</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Gói biểu tượng</string>
   <string name="state_loading">Đang áp dụng…</string>
   <string name="smartspace_preferences_in_settings">Xem nhanh</string>
   <string name="smartspace_preferences_in_settings_desc">Ở đầu Màn hình chính của bạn</string>
   <string name="title_show_google_app">Hiển thị %1$s</string>
+  <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">Ở bên trái Màn hình chính chính</string>
   <string name="about">Giới thiệu</string>
   <string name="title_google_app">Ứng dụng Google</string>
   <string name="title_app_suggestions">Hiển thị đề xuất ứng dụng</string>
   <string name="summary_app_suggestions">Ở đầu danh sách Tất cả ứng dụng của bạn</string>
   <string name="about_app_version">Phiên bản</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Trình khởi chạy Pixel</string>
   <string name="title_disable_suggestions_prompt">Tắt đề xuất ứng dụng?</string>
   <string name="msg_disable_suggestions_prompt">"Các đề xuất sẽ không hiển thị ở đầu danh sách ứng dụng của bạn và dữ liệu sử dụng đã được dùng để tạo các đề xuất này sẽ bị xóa vĩnh viễn."</string>
   <string name="label_turn_off_suggestions">TẮT</string>
   <!-- Preference categories -->
+  <string name="home_category_title">Màn hình chính</string>
+  <string name="app_drawer_category_title">Ngăn chứa ứng dụng</string>
+  <string name="icon_category_title">Biểu tượng ứng dụng</string>
+  <string name="widget_category_title">Tiện ích con</string>
+  <string name="other_category_title">Khác</string>
+  <string name="other_category_summary">Các cấu hình khác</string>
   <!-- About -->
+  <string name="about_credits">Những người đóng góp</string>
+  <string name="about_credits_ok">OK</string>
+  <string name="about_amirzaidi_title">Trình khởi chạy Pixel 3 mod</string>
+  <string name="about_amirzaidi_summary">Ngược lại tính năng thiết kế Trình khởi chạy pixel 3 bởi Amir Zaidi, tùy biến cho ABC.</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
+  <string name="hide_app">Ẩn ứng dụng</string>
+  <string name="hide_app_sum">Ẩn ứng dụng khỏi ngăn chứa ứng dụng</string>
+  <string name="hide_app_selected">&#160;selected</string>
+  <string name="hidden_app">Tất cả ứng dụng</string>
+  <string name="hide_selected">Ẩn ứng dụng đã chọn</string>
+  <string name="more">Thêm</string>
+  <string name="reset_hidden_apps">Đặt lại tất cả</string>
+  <string name="reset_hidden_apps_done">Ứng dụng ẩn bây giờ đã có sẵn</string>
   <!-- Swipe up indicator -->
+  <string name="show_swipeup_arrow">Chỉ thị vuốt lên</string>
+  <string name="show_swipeup_arrow_summary">Hiển thị mũi tên vuốt lên trên đầu của thanh dock</string>
+  <string name="pref_show_clock_weather">Màn hình chính ngày và thời tiết</string>
+  <string name="pref_show_clock_weather_both">Hiển thị ngày tháng và thời tiết</string>
+  <string name="pref_show_clock_weather_nothing">Không hiển thị</string>
+  <string name="pref_show_clock_weather_clock_only">Chỉ hiển thị ngày</string>
+  <string name="pref_show_clock_weather_weather_only">Chỉ hiển thị thời tiết</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Thanh tìm kiếm dưới</string>
+  <string name="bottom_search_bar_summary">Hiển thị thanh tìm kiếm ở phía dưới của thanh dock</string>
+  <string name="top_search_bar_title">Thanh tìm kiếm trên</string>
+  <string name="top_search_bar_summary">Hiển thị thanh tìm kiếm ở trên cùng của ngăn chứa ứng dụng</string>
+  <string name="num_default">Mặc định</string>
+  <string name="num_three">Ba</string>
+  <string name="num_four">Bốn</string>
+  <string name="num_five">Năm</string>
+  <string name="num_six">Sáu</string>
+  <string name="num_seven">Bảy</string>
+  <string-array name="grid_names">
+    <item>@string/num_default</item>
+    <item>@string/num_three</item>
+    <item>@string/num_four</item>
+    <item>@string/num_five</item>
+    <item>@string/num_six</item>
+    <item>@string/num_seven</item>
+  </string-array>
+  <string-array name="grid_values">
+    <item>mặc định</item>
+    <item>ba</item>
+    <item>bốn</item>
+    <item>năm</item>
+    <item>sáu</item>
+    <item>bảy</item>
+  </string-array>
+  <string name="grid_category_title">Các cột và các hàng</string>
+  <string name="number_of_columns_title">Lưới cột</string>
+  <string name="number_of_rows_title">Lưới hàng</string>
+  <string name="number_of_hotseat_title">Biểu tượng Hotseat</string>
+  <string name="icon_shape_rounded_square">Vuông tròn</string>
+  <string name="action_edit">Chỉnh sửa</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Sử dụng hình dạng tối</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Sử dụng một nền tối màu cho các biểu tượng mà không có màu sắc hình dạng riêng của chúng</string>
+  <string name="smartspace_hours_mins">%1$s %2$s</string>
 </resources>

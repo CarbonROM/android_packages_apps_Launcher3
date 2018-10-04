@@ -251,20 +251,24 @@
   <string name="action_dismiss_notification">Odrzuć</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Powiadomienie odrzucone</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
   <string name="smartspace_preferences">Ustawienia</string>
   <string name="label_search">Wyszukiwanie</string>
   <string name="label_voice_search">Wyszukiwanie głosowe</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Pakiet ikon</string>
   <string name="state_loading">Stosowanie…</string>
   <string name="smartspace_preferences_in_settings">W skrócie</string>
   <string name="smartspace_preferences_in_settings_desc">U góry ekranu głównego</string>
   <string name="title_show_google_app">Wyświetl: %1$s</string>
+  <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">Po lewej stronie ekranu głównego</string>
   <string name="about">Informacje</string>
   <string name="title_google_app">Aplikacja Google</string>
   <string name="title_app_suggestions">Wyświetl sugerowane aplikacje</string>
   <string name="summary_app_suggestions">U góry listy Wszystkie aplikacje</string>
   <string name="about_app_version">Wersja</string>
+  <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">Wyłączyć sugerowane aplikacje?</string>
   <string name="msg_disable_suggestions_prompt">"Sugestie nie będą pojawiać się u góry listy Twoich aplikacji, a dane o użytkowaniu służące do ich utworzenia zostaną trwale usunięte."</string>
@@ -279,9 +283,13 @@
   <!-- About -->
   <string name="about_credits">Informacje o autorach</string>
   <string name="about_credits_ok">OK</string>
+  <string name="about_amirzaidi_title">Pixel Launcher 3 mod</string>
+  <string name="about_amirzaidi_summary">Launcher 3 zawiera funkcje z Pixel Launcher poprzez zastosowanie inżynierii odwrotnej - Amir Zaidi, dostosowany do ABC.</string>
+  <string name="about_amirzaidi_url">https://github.com/ezio84</string>
   <!-- Hidden app -->
   <string name="hide_app">Ukryj aplikacje</string>
   <string name="hide_app_sum">Ukryj aplikacje w menu aplikacji</string>
+  <string name="hide_app_selected">&#160;wybrano</string>
   <string name="hidden_app">Wszystkie aplikacje</string>
   <string name="hide_selected">Ukryj wybrane aplikacje</string>
   <string name="more">Więcej</string>
@@ -289,19 +297,31 @@
   <string name="reset_hidden_apps_done">Ukryte aplikacje są teraz dostępne</string>
   <!-- Swipe up indicator -->
   <string name="show_swipeup_arrow">Przesuń wskaźnik w górę</string>
+  <string name="show_swipeup_arrow_summary">Pokaż strzałkę w górę nad paskiem ulubionych</string>
+  <string name="pref_show_clock_weather">Data i pogoda na ekranie głównym</string>
   <string name="pref_show_clock_weather_both">Pokaż datę i pogodę</string>
   <string name="pref_show_clock_weather_nothing">Nie pokazuj</string>
   <string name="pref_show_clock_weather_clock_only">Pokaż tylko datę</string>
   <string name="pref_show_clock_weather_weather_only">Pokaż tylko pogodę</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Dolny pasek wyszukiwania</string>
+  <string name="bottom_search_bar_summary">Pokaż pasek wyszukiwania pod paskiem ulubionych</string>
   <string name="top_search_bar_title">Górny pasek wyszukiwania</string>
+  <string name="top_search_bar_summary">Pokaż pasek wyszukiwania u góry menu aplikacji</string>
   <string name="num_default">Domyślnie</string>
   <string name="num_three">Trzy</string>
   <string name="num_four">Cztery</string>
   <string name="num_five">Pięć</string>
   <string name="num_six">Sześć</string>
   <string name="num_seven">Siedem</string>
+  <string-array name="grid_names">
+    <item>@string/num_default</item>
+    <item>@string/num_three</item>
+    <item>@string/num_four</item>
+    <item>@string/num_five</item>
+    <item>@string/num_six</item>
+    <item>@string/num_seven</item>
+  </string-array>
   <string-array name="grid_values">
     <item>domyślnie</item>
     <item>trzy</item>
@@ -311,5 +331,12 @@
     <item>siedem</item>
   </string-array>
   <string name="grid_category_title">Kolumny i wiersze</string>
+  <string name="number_of_columns_title">Kolumny siatki</string>
+  <string name="number_of_rows_title">Wiersze siatki</string>
+  <string name="number_of_hotseat_title">Ikony Hotseat</string>
+  <string name="icon_shape_rounded_square">Zaokrąglony kwadrat</string>
   <string name="action_edit">Edycja</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Użyj ciemnego wyglądu</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Użyj ciemnego koloru tła dla ikon bez własnego koloru tła</string>
+  <string name="smartspace_hours_mins">%1$s %2$s</string>
 </resources>
