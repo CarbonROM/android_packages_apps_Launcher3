@@ -18,6 +18,7 @@ package com.android.launcher3;
 
 import android.app.ActivityOptions;
 import android.content.ActivityNotFoundException;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
@@ -26,6 +27,7 @@ import android.os.Bundle;
 import android.os.Process;
 import android.os.StrictMode;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.ActionMode;
 import android.view.Surface;
@@ -56,6 +58,8 @@ public abstract class BaseDraggingActivity extends BaseActivity
     // automatically when user interacts with the launcher.
     public static final Object AUTO_CANCEL_ACTION_MODE = new Object();
 
+    private static final String SYSTEM_THEME = "system_theme";
+
     private ActionMode mCurrentActionMode;
     protected boolean mIsSafeModeEnabled;
 
@@ -77,8 +81,9 @@ public abstract class BaseDraggingActivity extends BaseActivity
         int themeRes = getThemeRes(wallpaperColorInfo);
         if (themeRes != mThemeRes) {
             mThemeRes = themeRes;
-            setTheme(themeRes);
+            //setTheme(themeRes);
         }
+        updateTheme(wallpaperColorInfo);
     }
 
     @Override
@@ -271,5 +276,22 @@ public abstract class BaseDraggingActivity extends BaseActivity
     public interface OnStartCallback<T extends BaseDraggingActivity> {
 
         void onActivityStart(T activity);
+    }
+
+    protected void updateTheme(WallpaperColorInfo wallpaperColorInfo) {
+        ContentResolver resolver = this.getContentResolver();
+        final boolean supportsDarkText = wallpaperColorInfo.supportsDarkText();
+        final int systemTheme = Settings.System.getInt(resolver, SYSTEM_THEME, 0);
+        switch (systemTheme) {
+            case 1:
+                setTheme(supportsDarkText ? R.style.LauncherTheme_DarkText : R.style.LauncherTheme);
+                break;
+            case 2:
+                setTheme(supportsDarkText ? R.style.LauncherThemeDark_DarKText : R.style.LauncherThemeDark);
+                break;
+            default:
+                setTheme(mThemeRes);
+                break;
+        }
     }
 }
