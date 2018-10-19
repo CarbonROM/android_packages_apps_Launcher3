@@ -21,6 +21,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_title">Clear all on swipe down from recents view</string>
     <string name="allow_swipe_down_clearall_desc">Doesn\'t works if P navbar gestures are enable</string>
 
+    <!-- Google Feed -->
+    <string name="settings_feed">Enable Google feed integration</string>
+
     <!-- Grid -->
     <string name="num_default">Default</string>
     <string name="grid_category_title">Columns and rows</string>
