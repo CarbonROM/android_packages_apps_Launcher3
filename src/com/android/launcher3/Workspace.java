@@ -50,11 +50,14 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
+import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.Toast;
+
+import com.android.internal.util.du.Utils;
 
 import com.android.launcher3.Launcher.LauncherOverlay;
 import com.android.launcher3.LauncherAppWidgetHost.ProviderChangedListener;
@@ -97,6 +100,8 @@ import com.android.launcher3.widget.PendingAppWidgetHostView;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+
+import static com.android.launcher3.Utilities.getDevicePrefs;
 
 /**
  * The workspace is a wide area with a wallpaper and a finite number of pages.
@@ -247,6 +252,9 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
     // Handles workspace state transitions
     private final WorkspaceStateTransitionAnimation mStateTransitionAnimation;
 
+    private GestureDetector mGestureListener;
+    private int mGestureMode;
+
     /**
      * Used to inflate the Workspace from XML.
      *
@@ -278,7 +286,75 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
 
         // Disable multitouch across the workspace/all apps/customize tray
         setMotionEventSplittingEnabled(true);
+
+        context.enforceCallingOrSelfPermission(
+                    android.Manifest.permission.DEVICE_POWER, null);
+        mGestureMode = Integer.valueOf(
+                getDevicePrefs(getContext()).getString("pref_homescreen_dt_gestures", "0"));
+        mGestureListener =
+                new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
+            @Override
+            public boolean onDoubleTap(MotionEvent event) {
+                triggerGesture(event);
+                return true;
+            }
+
+            @Override
+            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+                try {
+                    // skip horizontal unwanted swipes
+                    if (Math.abs(e1.getX() - e2.getX()) > 250) {
+                        return true;
+                    }
+                    if (e2.getY() - e1.getY() > 120/*min distance*/
+                            && Math.abs(velocityY) > 200/*min speed*/) {
+                        if(Utilities.useNotificationsGesture(context)) {
+                            openNotifications();
+                        }
+                    }
+                } catch (Exception e) {
+
+                }
+                return true;
+            }
+        });
+
         setOnTouchListener(new WorkspaceTouchListener(mLauncher, this));
+    }
+
+    private void triggerGesture(MotionEvent event) {
+        switch(mGestureMode) {
+            // Stock behavior
+            case 0:
+                break;
+            // Sleep
+            case 1:
+                Utils.switchScreenOff(getContext());
+                break;
+            // Flashlight
+            case 2:
+                Utils.toggleCameraFlash();
+                break;
+        }
+    }
+
+    public void setGestures(int mode) {
+        mGestureMode = mode;
+    }
+
+    private boolean openNotifications() {
+        try {
+            Class.forName("android.app.StatusBarManager")
+                    .getMethod("expandNotificationsPanel")
+                    .invoke(mLauncher.getSystemService("statusbar"));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public boolean checkCustomGestures(MotionEvent ev) {
+        return mGestureListener.onTouchEvent(ev);
     }
 
     @Override
