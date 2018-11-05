@@ -23,6 +23,7 @@ import android.animation.ValueAnimator;
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import android.app.Person;
+import android.app.ProgressDialog;
 import android.app.WallpaperManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -46,6 +47,7 @@ import android.os.DeadObjectException;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
+import android.os.SystemClock;
 import android.os.TransactionTooLargeException;
 import android.provider.Settings;
 import android.text.Spannable;
@@ -62,6 +64,7 @@ import android.view.animation.Interpolator;
 
 import com.android.launcher3.compat.LauncherAppsCompat;
 import com.android.launcher3.compat.ShortcutConfigActivityInfo;
+import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.dragndrop.FolderAdaptiveIcon;
 import com.android.launcher3.graphics.RotationMode;
 import com.android.launcher3.graphics.TintedDrawableSpan;
@@ -143,6 +146,8 @@ public final class Utilities {
         IS_RUNNING_IN_TEST_HARNESS = true;
     }
 
+    public static final String QSB_SHOW = "pref_qsb_show";
+
     public static boolean isPropertyEnabled(String propertyName) {
         return Log.isLoggable(propertyName, Log.VERBOSE);
     }
@@ -151,6 +156,10 @@ public final class Utilities {
         ResolveInfo ri = context.getPackageManager().resolveActivity(
                 PackageManagerHelper.getStyleWallpapersIntent(context), 0);
         return ri != null;
+    }
+
+    public static boolean showQsbWidget(Context context) {
+         return getPrefs(context).getBoolean(QSB_SHOW, FeatureFlags.QSB_ON_FIRST_SCREEN);
     }
 
     /**
@@ -644,7 +653,8 @@ public final class Utilities {
     }
 
     public static void restart(final Context context) {
-        new LooperExecutor(MODEL_EXECUTOR.getLooper()).execute(() -> {
+        ProgressDialog.show(context, null, context.getString(R.string.state_loading), true, false);
+	new LooperExecutor(MODEL_EXECUTOR.getLooper()).execute(() -> {
             try {
                 Thread.sleep(WAIT_BEFORE_RESTART);
             } catch (Exception ignored) {
@@ -652,5 +662,4 @@ public final class Utilities {
             android.os.Process.killProcess(android.os.Process.myPid());
         });
     }
-
 }
