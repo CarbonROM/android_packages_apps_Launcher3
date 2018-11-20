@@ -53,7 +53,7 @@ public final class Launcher {
     static final int APP_LAUNCH_TIMEOUT_MS = 10000;
     private static final int UI_OBJECT_WAIT_TIMEOUT_MS = 10000;
     private static final String SWIPE_UP_SETTING_AVAILABLE_RES_NAME =
-            "config_swipe_up_gesture_setting_available";
+            "config_custom_swipe_up_gesture_setting_available";
     private static final String SWIPE_UP_ENABLED_DEFAULT_RES_NAME =
             "config_swipe_up_gesture_default";
     private static final String SYSTEMUI_PACKAGE = "com.android.systemui";

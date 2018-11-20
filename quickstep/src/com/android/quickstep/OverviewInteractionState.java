@@ -55,7 +55,7 @@ public class OverviewInteractionState {
 
     private static final String HAS_ENABLED_QUICKSTEP_ONCE = "launcher.has_enabled_quickstep_once";
     private static final String SWIPE_UP_SETTING_AVAILABLE_RES_NAME =
-            "config_swipe_up_gesture_setting_available";
+            "config_custom_swipe_up_gesture_setting_available";
     private static final String SWIPE_UP_ENABLED_DEFAULT_RES_NAME =
             "config_swipe_up_gesture_default";
 
