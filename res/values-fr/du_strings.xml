@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2018 The OmniROM Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <string name="settings_title">Paramètres</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">Écran d\'accueil</string>
+    <string name="home_category_summary">Réglages du panneau de l\'application Google et plus</string>
+    <string name="icons_category_title">Icônes</string>
+    <string name="icons_category_summary">Réglages de l\'apparence des icônes et plus</string>
+    <string name="app_drawer_category_title">Tiroir d\'applications</string>
+    <string name="app_drawer_category_summary">Réglages du tiroir d\'applications</string>
+    <string name="gestures_category_title">Gestes</string>
+    <string name="gestures_category_summary">Réglages pour une meilleur expérience</string>
+
+    <!-- Sub categories -->
+    <string name="home_grid_title">Disposition de la grille</string>
+    <string name="icon_layout_title">Disposition des icônes</string>
+
+    <!-- Icon packs -->
+    <string name="icon_pack_none">Aucun</string>
+    <string name="icon_pack">Paquet d\'icônes</string>
+    <string name="icon_pack_summary">Modifier l\'apparence des icônes d\'applications</string>
+
+    <!-- Icon shape -->
+    <string name="icon_shape_override_label_custom">Apparence des icônes</string>
+    <string name="icon_shape_rounded_square">Carré arrondi</string>
+
+    <!-- Icon size -->
+    <string name="icon_size_title">Taille de l\'icône</string>
+    <string name="icon_size_extra_small">Minuscule</string>
+    <string name="icon_size_small">Petite</string>
+    <string name="icon_size_average">Par défaut</string>
+    <string name="icon_size_large">Grande</string>
+    <string name="icon_size_extra_large">Très grande</string>
+
+    <!-- Gestures -->
+    <string name="allow_swipe_down_clearall_title">Tout effacer</string>
+    <string name="allow_swipe_down_clearall_desc">Effectuer un geste vertical vers le bas dans la vue des applications récentes pour forcer la fermeture de toutes les applications</string>
+    <string name="pref_homescreen_dt_gestures_title">Double appui</string>
+    <string name="pref_homescreen_dt_gestures_summary">Sélectionner l\'action par double appui sur l\'écran d\'accueil</string>
+    <string name="pref_homescreen_dt_gestures_none">Aucune</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Veille</string>
+    <string name="pref_homescreen_dt_gestures_torch">Lampe de poche</string>
+    <string name="pref_notifications_gesture_title">Notifications</string>
+    <string name="pref_notifications_gesture_summary">Effectuer un glissement vers le bas sur l\'écran d\'accueil pour afficher le panneau de configuration rapide</string>
+
+    <!-- Google Feed -->
+    <string name="google_feed_title">Panneau de l\'application Google</string>
+    <string name="google_feed_summary">Afficher le panneau de l\'application Google sur l\'écran d\'accueil le plus à gauche</string>
+
+    <!-- Grid -->
+    <string name="num_default">Par défaut</string>
+    <string name="number_of_columns_title">Nombre de colonnes</string>
+    <string name="number_of_rows_title">Nombre de lignes</string>
+    <string name="number_of_hotseat_title">Nombre d\'icônes de la zone des favoris</string>
+    <string name="state_loading">Mise en place en cours\u2026</string>
+
+    <!-- Hidden apps -->
+    <string name="hide_app">Affichage des applications</string>
+    <string name="hide_app_sum">Masquer des applications</string>
+    <string name="hide_app_selected">&#160; sélectionnée(s)</string>
+    <string name="hidden_app">Toutes les applications</string>
+    <string name="hide_selected">Masquer les applications sélectionnées</string>
+    <string name="more">Plus</string>
+    <string name="reset_hidden_apps">Réinitialiser</string>
+    <string name="reset_hidden_apps_done">Les applications précédemment masquées sont maintenant affichées</string>
+
+    <!-- Show labels on icon -->
+    <string name="app_show_label_title">Libellés des applications</string>
+    <string name="desktop_show_label_summary">Afficher les libellés des applications</string>
+    <string name="allapps_show_label_summary">Afficher les libellés des applications</string>
+
+    <!-- Show searchbar -->
+    <string name="show_searchbar_title">Barre de recherche</string>
+    <string name="show_searchbar_summary">Afficher la barre de recherche</string>
+
+</resources>
