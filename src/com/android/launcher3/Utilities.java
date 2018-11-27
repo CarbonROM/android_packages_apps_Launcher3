@@ -152,6 +152,7 @@ public final class Utilities {
 
     public static final String PREF_CUSTOM_RECENTS_ROUND_SWITCH = "pref_custom_recents_corner_switch";
     public static final String PREF_CUSTOM_RECENTS_ROUND_TYPE = "pref_custom_recents_corner_type";
+    public static final String BOTTOM_SEARCH_BAR_KEY = "pref_bottom_search_bar";
 
     public static boolean useNotificationsGesture(Context context) {
         return getPrefs(context).getBoolean(PREF_NOTIFICATIONS_GESTURE, true);
@@ -272,6 +273,10 @@ public final class Utilities {
         } catch (Exception e) {
             return preferenceFallback;
         }
+    }
+
+    public static boolean isBottomSearchBarVisible(Context context) {
+        return getPrefs(context).getBoolean(BOTTOM_SEARCH_BAR_KEY, true);
     }
 
     /**
