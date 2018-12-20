@@ -28,6 +28,8 @@
     <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
     <string name="app_drawer_category_title">App drawer</string>
     <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
+    <string name="recents_category_title">Recents</string>
+    <string name="recents_category_summary">Customize your recents card</string>
     <string name="gestures_category_title">Gestures</string>
     <string name="gestures_category_summary">Double tap, notifications and clear-all gestures</string>
 
@@ -100,5 +102,13 @@
     <string name="lock_desktop_title">Lock desktop</string>
     <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
     <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+
+    <!-- Recents corned -->
+    <string name="custom_recents_corners_switch_title">Use custom recents rounded corners</string>
+    <string name="custom_recents_corners_switch_summary">If disabled, it\'ll use the one provided by the system/theme. To apply the new value, go to home after selecting your option.</string>
+    <string name="custom_recents_corners_type_title">Custom recents roundness</string>
+    <string name="custom_recents_corners_type_default">Default</string>
+    <string name="custom_recents_corners_type_card">Rounded Card</string>
+    <string name="custom_recents_corners_type_op">OP Style</string>
 
 </resources>
