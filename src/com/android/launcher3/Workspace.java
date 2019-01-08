@@ -58,6 +58,7 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.Toast;
 
+import com.android.internal.util.du.ActionUtils;
 import com.android.internal.util.du.Utils;
 
 import com.android.launcher3.Launcher.LauncherOverlay;
@@ -328,10 +329,10 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
             case 0: // Stock
                 break;
             case 1: // Screen off
-                Utils.switchScreenOff(getContext());
+                ActionUtils.switchScreenOff(getContext());
                 break;
             case 2: // Flashlight
-                Utils.toggleCameraFlash();
+                ActionUtils.toggleCameraFlash();
                 break;
             case 3: // Google search
                 launchGoogleSearch(getContext());
