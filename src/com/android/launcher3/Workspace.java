@@ -311,7 +311,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                     if (e2.getY() - e1.getY() > 160/*min distance*/
                             && Math.abs(velocityY) > 250/*min speed*/) {
                         if(Utilities.useNotificationsGesture(context)) {
-                            openNotifications();
+                            ActionUtils.toggleNotifications();
                         }
                     }
                 } catch (Exception e) {
@@ -342,17 +342,6 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
 
     public void setGestures(int mode) {
         mGestureMode = mode;
-    }
-
-    private boolean openNotifications() {
-        try {
-            Class.forName("android.app.StatusBarManager")
-                    .getMethod("expandNotificationsPanel")
-                    .invoke(mLauncher.getSystemService("statusbar"));
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
     }
 
     public boolean checkCustomGestures(MotionEvent ev) {
