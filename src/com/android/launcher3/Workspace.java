@@ -255,7 +255,8 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
     private final WorkspaceStateTransitionAnimation mStateTransitionAnimation;
 
     private GestureDetector mGestureListener;
-    private int mGestureMode;
+    private int mDoubleGestureMode;
+    private int mSwipeDownGestureMode;
 
     /**
      * Used to inflate the Workspace from XML.
@@ -291,13 +292,16 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
 
         context.enforceCallingOrSelfPermission(
                     android.Manifest.permission.DEVICE_POWER, null);
-        mGestureMode = Integer.valueOf(
+        mDoubleGestureMode = Integer.valueOf(
                 getDevicePrefs(getContext()).getString("pref_homescreen_dt_gestures", "0"));
+        mSwipeDownGestureMode = Integer.valueOf(
+                getDevicePrefs(getContext()).getString("pref_homescreen_swipe_down_gestures", "7"));
         mGestureListener =
                 new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
             @Override
             public boolean onDoubleTap(MotionEvent event) {
-                triggerGesture(event);
+                // Double tap gestures
+                Gestures(event, mDoubleGestureMode);
                 return true;
             }
 
@@ -311,7 +315,8 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                     if (e2.getY() - e1.getY() > 160/*min distance*/
                             && Math.abs(velocityY) > 250/*min speed*/) {
                         if(Utilities.useNotificationsGesture(context)) {
-                            ActionUtils.toggleNotifications();
+                            // Swipe down gestures
+                            Gestures(e1, mSwipeDownGestureMode);
                         }
                     }
                 } catch (Exception e) {
@@ -324,8 +329,9 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
         setOnTouchListener(new WorkspaceTouchListener(mLauncher, this));
     }
 
-    private void triggerGesture(MotionEvent event) {
-        switch(mGestureMode) {
+    // Gestures
+    private void Gestures(MotionEvent event, int gestureType) {
+        switch(gestureType) {
             case 0: // Stock
                 break;
             case 1: // Screen off
@@ -337,11 +343,30 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
             case 3: // Google search
                 launchGoogleSearch(getContext());
                 break;
+            case 4: // Volume panel
+                ActionUtils.toggleVolumePanel(getContext());
+                break;
+            case 5: // Clear notifications
+                ActionUtils.clearAllNotifications();
+                break;
+            case 6: // Screenshot
+                ActionUtils.takeScreenshot(true);
+                break;
+            case 7: // Notifications
+                ActionUtils.toggleNotifications();
+                break;
+            case 8: // QS panel
+                ActionUtils.toggleQsPanel();
+                break;
         }
     }
 
-    public void setGestures(int mode) {
-        mGestureMode = mode;
+    public void setDoubleTapGestures(int mode) {
+        mDoubleGestureMode = mode;
+    }
+
+    public void setSwipeDownGestures(int mode) {
+        mSwipeDownGestureMode = mode;
     }
 
     public boolean checkCustomGestures(MotionEvent ev) {
