@@ -45,11 +45,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     <!-- Icon size -->
     <string name="icon_size_title">Taille de l\'icône</string>
-    <string name="icon_size_extra_small">Minuscule</string>
-    <string name="icon_size_small">Petite</string>
-    <string name="icon_size_average">Par défaut</string>
-    <string name="icon_size_large">Grande</string>
-    <string name="icon_size_extra_large">Très grande</string>
 
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Tout effacer</string>
