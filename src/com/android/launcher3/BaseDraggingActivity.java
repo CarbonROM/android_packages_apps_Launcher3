@@ -22,6 +22,7 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.os.Process;
@@ -278,10 +279,10 @@ public abstract class BaseDraggingActivity extends BaseActivity
     }
 
     private void updateTheme(WallpaperColorInfo wallpaperColorInfo) {
-        if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_AUTO) {
-            setTheme(wallpaperColorInfo.supportsDarkText() ? R.style.AppTheme_DarkText :
-                    R.style.AppTheme);
-        } else if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES) {
+        final Configuration config = this.getResources().getConfiguration();
+        final boolean nightModeWantsDarkTheme = (config.uiMode & Configuration.UI_MODE_NIGHT_MASK)
+                == Configuration.UI_MODE_NIGHT_YES;
+        if (nightModeWantsDarkTheme) {
             setTheme(wallpaperColorInfo.supportsDarkText() ? R.style.AppTheme_Dark_DarkText :
                     R.style.AppTheme_Dark);
         } else {
