@@ -29,6 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_drawer_category_summary">Réglages du tiroir d\'applications</string>
     <string name="gestures_category_title">Gestes</string>
     <string name="gestures_category_summary">Réglages pour une meilleur expérience</string>
+    <string name="gestures_other_category_title">Divers</string>
 
     <!-- Sub categories -->
     <string name="home_grid_title">Disposition de la grille</string>
@@ -50,12 +51,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_title">Tout effacer</string>
     <string name="allow_swipe_down_clearall_desc">Effectuer un geste vertical vers le bas dans la vue des applications récentes pour forcer la fermeture de toutes les applications</string>
     <string name="pref_homescreen_dt_gestures_title">Double appui</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Glisser vers le bas</string>
+    <string name="pref_homescreen_gestures_none">Aucun</string>
+    <string name="pref_homescreen_gestures_sleep">Éteindre l\'écran</string>
+    <string name="pref_homescreen_gestures_torch">Lampe de poche</string>
+    <string name="pref_homescreen_gestures_google">Recherche Google</string>
     <string name="pref_homescreen_dt_gestures_summary">Sélectionner l\'action par double appui sur l\'écran d\'accueil</string>
     <string name="pref_homescreen_dt_gestures_none">Aucune</string>
     <string name="pref_homescreen_dt_gestures_sleep">Veille</string>
     <string name="pref_homescreen_dt_gestures_torch">Lampe de poche</string>
     <string name="pref_homescreen_dt_gestures_google">Recherche Google</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Recherche Google n\'est pas installé</string>
+    <string name="pref_homescreen_gestures_volume_panel">Panneau de volume</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Effacer les notifications</string>
+    <string name="pref_homescreen_gestures_screenshot">Capture d\'écran</string>
+    <string name="pref_homescreen_gestures_notifications">Notifications</string>
+    <string name="pref_homescreen_gestures_qs_panel">Panneau de configuration rapide</string>
     <string name="pref_notifications_gesture_title">Notifications</string>
     <string name="pref_notifications_gesture_summary">Effectuer un glissement vers le bas sur l\'écran d\'accueil pour afficher le panneau de configuration rapide</string>
 
@@ -88,5 +99,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Show searchbar -->
     <string name="show_searchbar_title">Barre de recherche</string>
     <string name="show_searchbar_summary">Afficher la barre de recherche</string>
+
+    <!-- QSB -->
+    <string name="hotseat_qsb_preferences">Préférences</string>
+    <string name="label_search">Rechercher</string>
+    <string name="label_voice_search">Recherche vocale</string>
 
 </resources>
