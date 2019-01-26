@@ -145,6 +145,11 @@ public final class Utilities {
     public static final String KEY_HIDDEN_APPS_SET = "hidden_app_set";
     public static final String PREF_NOTIFICATIONS_GESTURE = "pref_notifications_gesture";
     public static final String PREF_ALLAPPS_LONG_LABELS = "pref_allapps_long_labels";
+    public static final String LOCK_DESKTOP_KEY = "pref_lock_desktop";
+
+    public static boolean isDesktopLocked(Context context) {
+        return getPrefs(context).getBoolean(LOCK_DESKTOP_KEY, false);
+    }
 
     public static boolean showAllAppsLongLabels(Context context) {
         return getPrefs(context).getBoolean(PREF_ALLAPPS_LONG_LABELS, false);
