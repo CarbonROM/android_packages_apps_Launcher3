@@ -54,6 +54,10 @@
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
 
+    <!-- Permissions for Dark Feed implementation -->
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+
     <!-- Google QSB -->
     <permission
         android:name="com.google.android.apps.nexuslauncher.permission.QSB"

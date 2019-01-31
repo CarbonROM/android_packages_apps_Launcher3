@@ -58,6 +58,7 @@ import android.os.Process;
 import android.os.StrictMode;
 import android.os.UserHandle;
 import android.support.annotation.Nullable;
+import android.support.v4.graphics.ColorUtils;
 import android.text.TextUtils;
 import android.text.method.TextKeyListener;
 import android.util.Log;
@@ -98,6 +99,7 @@ import com.android.launcher3.model.ModelWriter;
 import com.android.launcher3.notification.NotificationListener;
 import com.android.launcher3.popup.PopupContainerWithArrow;
 import com.android.launcher3.popup.PopupDataProvider;
+import com.android.launcher3.qsb.QsbAnimationController;
 import com.android.launcher3.shortcuts.DeepShortcutManager;
 import com.android.launcher3.states.InternalStateHandler;
 import com.android.launcher3.states.RotationHelper;
@@ -133,11 +135,10 @@ import com.android.launcher3.widget.WidgetListRowEntry;
 import com.android.launcher3.widget.WidgetsFullSheet;
 import com.android.launcher3.widget.custom.CustomWidgetParser;
 
-import com.android.launcher3.qsb.QsbAnimationController;
-
-import com.google.android.libraries.gsa.launcherclient.ClientOptions;
-import com.google.android.libraries.gsa.launcherclient.ClientService;
 import com.google.android.libraries.gsa.launcherclient.LauncherClient;
+import com.google.android.libraries.gsa.launcherclient.LauncherClientService;
+import com.google.android.libraries.gsa.launcherclient.StaticInteger;
+import com.android.launcher3.uioverrides.WallpaperColorInfo;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -262,6 +263,8 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
     // Feed integration
     private LauncherTab mLauncherTab;
     private boolean mFeedIntegrationEnabled;
+    private final Bundle mUiInformation = new Bundle();
+    LauncherClient mClient;
 
     private QsbAnimationController mQsbController;
 
@@ -270,7 +273,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
     }
 
     public LauncherClient getClient() {
-        return mLauncherTab.getClient();
+        return mClient;
     }
 
     @Override
@@ -356,6 +359,12 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
 
         mFeedIntegrationEnabled = isFeedIntegrationEnabled();
         mLauncherTab = new LauncherTab(this, mFeedIntegrationEnabled);
+        mClient = new LauncherClient(this, mLauncherTab, new StaticInteger(
+                (mFeedIntegrationEnabled ? 1 : 0) | 2 | 4 | 8));
+        mLauncherTab.setClient(mClient);
+        mUiInformation.putInt("system_ui_visibility", getWindow().getDecorView().getSystemUiVisibility());
+        WallpaperColorInfo instance = WallpaperColorInfo.getInstance(this);
+        onExtractedColorsChanged(instance);
 
         setContentView(mLauncherView);
         getRootView().dispatchInsets();
@@ -764,6 +773,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
         if (mLauncherCallbacks != null) {
             mLauncherCallbacks.onStop();
         }
+
         getUserEventDispatcher().logActionCommand(Action.Command.STOP,
                 mStateManager.getState().containerType, -1);
 
@@ -781,6 +791,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
     @Override
     protected void onStart() {
         super.onStart();
+
         FirstFrameAnimatorHelper.setIsVisible(true);
 
         if (mLauncherCallbacks != null) {
@@ -819,7 +830,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
         DiscoveryBounce.showForHomeIfNeeded(this);
 
         if (mFeedIntegrationEnabled) {
-            mLauncherTab.getClient().onResume();
+            mClient.onResume();
         }
 
         if (mLauncherCallbacks != null) {
@@ -840,7 +851,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
         mDragController.resetLastGestureUpTime();
 
         if (mFeedIntegrationEnabled) {
-            mLauncherTab.getClient().onPause();
+            mClient.onPause();
         }
 
         if (mLauncherCallbacks != null) {
@@ -1168,7 +1179,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
         FirstFrameAnimatorHelper.initializeDrawListener(getWindow().getDecorView());
 
         if (mFeedIntegrationEnabled) {
-            mLauncherTab.getClient().onAttachedToWindow();
+            mClient.onAttachedToWindow();
         }
 
         if (mLauncherCallbacks != null) {
@@ -1181,11 +1192,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
         super.onDetachedFromWindow();
 
         if (mFeedIntegrationEnabled) {
-            final LauncherClient client = mLauncherTab.getClient();
-            if (!client.isDestroyed()) {
-                client.getEventInfo().parse(0, "detachedFromWindow", 0.0f);
-                client.setParams(null);
-            }
+            mClient.onDetachedFromWindow();
         }
 
         if (mLauncherCallbacks != null) {
@@ -1309,7 +1316,7 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
             }
 
             if (mFeedIntegrationEnabled) {
-                mLauncherTab.getClient().hideOverlay(true);
+                mClient.hideOverlay(true);
             }
 
             if (mLauncherCallbacks != null) {
@@ -1318,6 +1325,18 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
         }
 
         TraceHelper.endSection("NEW_INTENT");
+    }
+
+    public static int primaryColor(WallpaperColorInfo wallpaperColorInfo, Context context, int alpha) {
+        return compositeAllApps(ColorUtils.setAlphaComponent(wallpaperColorInfo.getMainColor(), alpha), context);
+    }
+
+    public static int secondaryColor(WallpaperColorInfo wallpaperColorInfo, Context context, int alpha) {
+        return compositeAllApps(ColorUtils.setAlphaComponent(wallpaperColorInfo.getSecondaryColor(), alpha), context);
+    }
+
+    private static int compositeAllApps(int color, Context context) {
+        return ColorUtils.compositeColors(Themes.getAttrColor(context, R.attr.allAppsScrimColor), color);
     }
 
     @Override
@@ -1393,28 +1412,29 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
 
         clearPendingBinds();
 
-        if (mFeedIntegrationEnabled) {
-            final LauncherClient launcherClient = mLauncherTab.getClient();
-            if (!launcherClient.isDestroyed()) {
-                launcherClient.getActivity().unregisterReceiver(launcherClient.mInstallListener);
-            }
-            launcherClient.setDestroyed(true);
-            launcherClient.getBaseService().disconnect();
-            if (launcherClient.getOverlayCallback() != null) {
-                launcherClient.getOverlayCallback().mClient = null;
-                launcherClient.getOverlayCallback().mWindowManager = null;
-                launcherClient.getOverlayCallback().mWindow = null;
-                launcherClient.setOverlayCallback(null);
-            }
-            ClientService service = launcherClient.getClientService();
-            LauncherClient client = service.getClient();
-            if (client != null && client.equals(launcherClient)) {
-                service.mWeakReference = null;
-                if (!launcherClient.getActivity().isChangingConfigurations()) {
-                    service.disconnect();
-                    if (ClientService.sInstance == service) {
-                        ClientService.sInstance = null;
-                    }
+        LauncherClient launcherClient = mClient;
+        if (!launcherClient.mDestroyed) {
+            launcherClient.mActivity.unregisterReceiver(launcherClient.googleInstallListener);
+        }
+
+        launcherClient.mDestroyed = true;
+        launcherClient.mBaseService.disconnect();
+
+        if (launcherClient.mOverlayCallback != null) {
+            launcherClient.mOverlayCallback.mClient = null;
+            launcherClient.mOverlayCallback.mWindowManager = null;
+            launcherClient.mOverlayCallback.mWindow = null;
+            launcherClient.mOverlayCallback = null;
+        }
+
+        LauncherClientService service = launcherClient.mLauncherService;
+        LauncherClient client = service.getClient();
+        if (client != null && client.equals(launcherClient)) {
+            service.mClient = null;
+            if (!launcherClient.mActivity.isChangingConfigurations()) {
+                service.disconnect();
+                if (LauncherClientService.sInstance == service) {
+                    LauncherClientService.sInstance = null;
                 }
             }
         }
@@ -2521,20 +2541,36 @@ public class Launcher extends BaseDraggingActivity implements LauncherExterns,
     }
 
     @Override
+    public void onExtractedColorsChanged(WallpaperColorInfo wallpaperColorInfo) {
+        int alpha = getResources().getInteger(R.integer.extracted_color_gradient_alpha);
+        final Configuration config = this.getResources().getConfiguration();
+        final boolean nightModeWantsDarkTheme = (config.uiMode & Configuration.UI_MODE_NIGHT_MASK)
+                == Configuration.UI_MODE_NIGHT_YES;
+        mUiInformation.putInt("background_color_hint", primaryColor(wallpaperColorInfo, this, alpha));
+        mUiInformation.putInt("background_secondary_color_hint", secondaryColor(wallpaperColorInfo, this, alpha));
+        mUiInformation.putBoolean("is_background_dark", nightModeWantsDarkTheme);
+
+        mClient.redraw(mUiInformation);
+
+        super.onExtractedColorsChanged(wallpaperColorInfo);
+    }
+
+    @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
         if (Homescreen.KEY_FEED_INTEGRATION.equals(key)) {
             if (mLauncherTab != null) {
+                LauncherClient launcherClient = mClient;
                 mFeedIntegrationEnabled = isFeedIntegrationEnabled();
-                ClientOptions clientOptions = new ClientOptions(mFeedIntegrationEnabled ? 1 : 0);
-                final LauncherClient client = mLauncherTab.getClient();
-                if (clientOptions.options != client.mFlags) {
-                    client.mFlags = clientOptions.options;
-                    if (client.getParams() != null) {
-                        client.updateConfiguration();
+                StaticInteger i = new StaticInteger(
+                        (mFeedIntegrationEnabled ? 1 : 0) | 2 | 4 | 8);
+                if (i.mData != launcherClient.mFlags) {
+                    launcherClient.mFlags = i.mData;
+                    if (launcherClient.mLayoutParams != null) {
+                        launcherClient.exchangeConfig();
                     }
-                    client.getEventInfo().parse("setClientOptions ", client.mFlags);
                 }
             }
+            LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         }
 
         if ("pref_iconPackPackage".equals(key)) {
