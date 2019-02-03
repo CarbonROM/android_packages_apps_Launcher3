@@ -30,32 +30,25 @@ import android.view.MenuItem;
 
 import static com.android.launcher3.Utilities.getDevicePrefs;
 
-public class Gestures extends SettingsActivity
-        implements PreferenceFragment.OnPreferenceStartFragmentCallback {
+public class Gestures extends SettingsActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
 
     public static final String KEY_HOMESCREEN_DT_GESTURES = "pref_homescreen_dt_gestures";
-    public static final String KEY_HOMESCREEN_SWIPE_DOWN_GESTURES =
-        "pref_homescreen_swipe_down_gestures";
 
     @Override
     protected void onCreate(final Bundle bundle) {
         super.onCreate(bundle);
         if (bundle == null) {
-            getFragmentManager().beginTransaction().replace(android.R.id.content,
-                new GesturesSettingsFragment()).commit();
+            getFragmentManager().beginTransaction().replace(android.R.id.content, new GesturesSettingsFragment()).commit();
         }
     }
 
     @Override
-    public boolean onPreferenceStartFragment(PreferenceFragment preferenceFragment,
-            Preference preference) {
-        Fragment instantiate = Fragment.instantiate(this, preference.getFragment(),
-            preference.getExtras());
+    public boolean onPreferenceStartFragment(PreferenceFragment preferenceFragment, Preference preference) {
+        Fragment instantiate = Fragment.instantiate(this, preference.getFragment(), preference.getExtras());
         if (instantiate instanceof DialogFragment) {
             ((DialogFragment) instantiate).show(getFragmentManager(), preference.getKey());
         } else {
-            getFragmentManager().beginTransaction().replace(
-                android.R.id.content, instantiate).addToBackStack(preference.getKey()).commit();
+            getFragmentManager().beginTransaction().replace(android.R.id.content, instantiate).addToBackStack(preference.getKey()).commit();
         }
         return true;
     }
@@ -67,8 +60,7 @@ public class Gestures extends SettingsActivity
 
         ActionBar actionBar;
 
-        private ListPreference mDoubleTapGestures;
-        private ListPreference mSwipeDownGestures;
+        private ListPreference mHomescreenGestures;
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -78,21 +70,21 @@ public class Gestures extends SettingsActivity
 
             mContext = getActivity();
 
-            actionBar = getActivity().getActionBar();
+            actionBar=getActivity().getActionBar();
             assert actionBar != null;
             actionBar.setDisplayHomeAsUpEnabled(true);
 
-            mDoubleTapGestures = (ListPreference) findPreference(KEY_HOMESCREEN_DT_GESTURES);
-            mDoubleTapGestures.setValue(getDevicePrefs(mContext).getString(
-                KEY_HOMESCREEN_DT_GESTURES, "0"));
-            mDoubleTapGestures.setSummary(mDoubleTapGestures.getEntry());
-            mDoubleTapGestures.setOnPreferenceChangeListener(this);
+            mHomescreenGestures = (ListPreference) findPreference(KEY_HOMESCREEN_DT_GESTURES);
+            mHomescreenGestures.setValue(getDevicePrefs(mContext).getString(KEY_HOMESCREEN_DT_GESTURES, "0"));
+            mHomescreenGestures.setOnPreferenceChangeListener(this);
 
-            mSwipeDownGestures = (ListPreference) findPreference(KEY_HOMESCREEN_SWIPE_DOWN_GESTURES);
-            mSwipeDownGestures.setValue(getDevicePrefs(mContext).getString(
-                KEY_HOMESCREEN_SWIPE_DOWN_GESTURES, "7"));
-            mSwipeDownGestures.setSummary(mSwipeDownGestures.getEntry());
-            mSwipeDownGestures.setOnPreferenceChangeListener(this);
+            SwitchPreference notificationsGesture = (SwitchPreference) findPreference(Utilities.PREF_NOTIFICATIONS_GESTURE);
+            notificationsGesture.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+                public boolean onPreferenceChange(Preference preference, Object newValue) {
+                    LauncherAppState.getInstanceNoCreate().setNeedsRestart();
+                    return true;
+                }
+            });
         }
 
         @Override
@@ -109,19 +101,9 @@ public class Gestures extends SettingsActivity
         public boolean onPreferenceChange(Preference preference, final Object newValue) {
             switch (preference.getKey()) {
                 case KEY_HOMESCREEN_DT_GESTURES:
-                    String dtGestureValue = (String) newValue;
-                    getDevicePrefs(mContext).edit().putString(KEY_HOMESCREEN_DT_GESTURES,
-                        dtGestureValue).commit();
-                    mDoubleTapGestures.setValue(dtGestureValue);
-                    mDoubleTapGestures.setSummary(mDoubleTapGestures.getEntry());
-                    LauncherAppState.getInstanceNoCreate().setNeedsRestart();
-                    break;
-                case KEY_HOMESCREEN_SWIPE_DOWN_GESTURES:
-                    String swipeDownGestureValue = (String) newValue;
-                    getDevicePrefs(mContext).edit().putString(KEY_HOMESCREEN_SWIPE_DOWN_GESTURES,
-                        swipeDownGestureValue).commit();
-                    mSwipeDownGestures.setValue(swipeDownGestureValue);
-                    mSwipeDownGestures.setSummary(mSwipeDownGestures.getEntry());
+                    String gestureValue = (String) newValue;
+                    getDevicePrefs(mContext).edit().putString(KEY_HOMESCREEN_DT_GESTURES, gestureValue).commit();
+                    mHomescreenGestures.setValue(gestureValue);
                     LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                     break;
             }
