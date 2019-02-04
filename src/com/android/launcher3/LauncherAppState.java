@@ -33,7 +33,7 @@ import com.android.launcher3.util.ConfigMonitor;
 import com.android.launcher3.util.Preconditions;
 import com.android.launcher3.util.SettingsObserver;
 
-import com.android.internal.util.du.Utils;
+import com.android.internal.util.cr.CrUtils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -97,7 +97,7 @@ public class LauncherAppState {
         Preconditions.assertUIThread();
         mContext = context;
 
-        setSearchAppAvailable(Utils.isPackageInstalled(context, LauncherTab.SEARCH_PACKAGE));
+        setSearchAppAvailable(CrUtils.isPackageInstalled(context, LauncherTab.SEARCH_PACKAGE));
 
         mInvariantDeviceProfile = new InvariantDeviceProfile(mContext);
         mIconCache = new IconCache(mContext, mInvariantDeviceProfile);
