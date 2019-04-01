@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">Standard</string>
-  <string name="icons_pack_name">Icon Pack</string>
-  <string name="edit_drop_target_label">Bearbeiten</string>
-  <string name="edit_app">Bearbeiten</string>
-  <string name="reset_icon">Zurücksetzen</string>
-  <string name="customize">Anpassen</string>
-  <string name="visual">Visuell</string>
-  <string name="all_icons">Alle Icons</string>
-  <string name="similar_icons">Ähnliche Icons</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Bezeichnung</string>
-  <string name="loading">Lädt. Bitte warten</string>
-  <string name="icon_chooser">Icon Auswahl</string>
-  <string name="icon_search">Nach Icons suchen</string>
-  <string name="icon_pack_updated">Dein Launcher Icon Pack wurde geupdated, es könnten neue Apps verfügbar sein.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Standard</string>
+    <string name="icons_pack_name">Icon Pack</string>
+    <string name="edit_drop_target_label">Bearbeiten</string>
+    <string name="edit_app">Bearbeiten</string>
+    <string name="reset_icon">Zurücksetzen</string>
+    <string name="customize">Anpassen</string>
+    <string name="visual">Visuell</string>
+    <string name="all_icons">Alle Icons</string>
+    <string name="similar_icons">Ähnliche Icons</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Bezeichnung</string>
+    <string name="loading">Lädt. Bitte warten</string>
+    <string name="icon_chooser">Icon Auswahl</string>
+    <string name="icon_search">Nach Icons suchen</string>
+    <string name="icon_pack_updated">Dein Launcher Icon Pack wurde geupdated, es könnten neue Apps verfügbar sein.</string>
 </resources>

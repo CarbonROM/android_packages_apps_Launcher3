@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">Mặc định</string>
-  <string name="icons_pack_name">Gói biểu tượng</string>
-  <string name="edit_drop_target_label">Chỉnh sửa</string>
-  <string name="edit_app">Chỉnh sửa</string>
-  <string name="reset_icon">Thiết lập lại</string>
-  <string name="customize">Tùy chỉnh</string>
-  <string name="visual">Thị giác</string>
-  <string name="all_icons">Tất cả các biểu tượng</string>
-  <string name="similar_icons">Biểu tượng tương tự</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Nhãn</string>
-  <string name="loading">Đang tải, vui lòng chờ</string>
-  <string name="icon_chooser">Chọn biểu tượng</string>
-  <string name="icon_search">Tìm kiếm biểu tượng</string>
-  <string name="icon_pack_updated">Gói biểu tượng của bạn đã được cập nhật, các biểu tượng mới cho các ứng dụng của bạn có thể có sẵn.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Mặc định</string>
+    <string name="icons_pack_name">Gói biểu tượng</string>
+    <string name="edit_drop_target_label">Chỉnh sửa</string>
+    <string name="edit_app">Chỉnh sửa</string>
+    <string name="reset_icon">Thiết lập lại</string>
+    <string name="customize">Tùy chỉnh</string>
+    <string name="visual">Thị giác</string>
+    <string name="all_icons">Tất cả các biểu tượng</string>
+    <string name="similar_icons">Biểu tượng tương tự</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Nhãn</string>
+    <string name="loading">Đang tải, vui lòng chờ</string>
+    <string name="icon_chooser">Chọn biểu tượng</string>
+    <string name="icon_search">Tìm kiếm biểu tượng</string>
+    <string name="icon_pack_updated">Gói biểu tượng của bạn đã được cập nhật, các biểu tượng mới cho các ứng dụng của bạn có thể có sẵn.</string>
 </resources>

@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">既定</string>
-  <string name="icons_pack_name">アイコンパック</string>
-  <string name="edit_drop_target_label">編集</string>
-  <string name="edit_app">編集</string>
-  <string name="reset_icon">リセット</string>
-  <string name="customize">カスタマイズ</string>
-  <string name="visual">視覚</string>
-  <string name="all_icons">全てのアイコン</string>
-  <string name="similar_icons">類似のアイコン</string>
-  <string name="ok">OK</string>
-  <string name="icon_label">ラベル</string>
-  <string name="loading">読み込み中です。お待ち下さい。</string>
-  <string name="icon_chooser">アイコンの選択</string>
-  <string name="icon_search">アイコンを検索</string>
-  <string name="icon_pack_updated">ランチャーアイコンパックが更新されました。あなたのアプリの新しいアイコンが利用可能になるでしょう。</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">既定</string>
+    <string name="icons_pack_name">アイコンパック</string>
+    <string name="edit_drop_target_label">編集</string>
+    <string name="edit_app">編集</string>
+    <string name="reset_icon">リセット</string>
+    <string name="customize">カスタマイズ</string>
+    <string name="visual">視覚</string>
+    <string name="all_icons">全てのアイコン</string>
+    <string name="similar_icons">類似のアイコン</string>
+    <string name="ok">OK</string>
+    <string name="icon_label">ラベル</string>
+    <string name="loading">読み込み中です。お待ち下さい。</string>
+    <string name="icon_chooser">アイコンの選択</string>
+    <string name="icon_search">アイコンを検索</string>
+    <string name="icon_pack_updated">ランチャーアイコンパックが更新されました。あなたのアプリの新しいアイコンが利用可能になるでしょう。</string>
 </resources>

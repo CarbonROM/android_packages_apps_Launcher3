@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">默认​​​​​</string>
-  <string name="icons_pack_name">图标包</string>
-  <string name="edit_drop_target_label">编辑</string>
-  <string name="edit_app">编辑</string>
-  <string name="reset_icon">重置</string>
-  <string name="customize">个性化</string>
-  <string name="visual">视觉</string>
-  <string name="all_icons">所有图标</string>
-  <string name="similar_icons">类似的图标</string>
-  <string name="ok">确认</string>
-  <string name="icon_label">标签</string>
-  <string name="loading">加载中，请稍候...</string>
-  <string name="icon_chooser">图标选择器</string>
-  <string name="icon_search">搜索图标</string>
-  <string name="icon_pack_updated">您的启动器图标包已更新, 您的应用程序的新图标可能可用。</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">默认​​​​​</string>
+    <string name="icons_pack_name">图标包</string>
+    <string name="edit_drop_target_label">编辑</string>
+    <string name="edit_app">编辑</string>
+    <string name="reset_icon">重置</string>
+    <string name="customize">个性化</string>
+    <string name="visual">视觉</string>
+    <string name="all_icons">所有图标</string>
+    <string name="similar_icons">类似的图标</string>
+    <string name="ok">确认</string>
+    <string name="icon_label">标签</string>
+    <string name="loading">加载中，请稍候...</string>
+    <string name="icon_chooser">图标选择器</string>
+    <string name="icon_search">搜索图标</string>
+    <string name="icon_pack_updated">您的启动器图标包已更新, 您的应用程序的新图标可能可用。</string>
 </resources>

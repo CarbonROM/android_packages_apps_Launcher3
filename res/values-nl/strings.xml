@@ -18,260 +18,260 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- General -->
-  <!-- Application name -->
-  <string name="app_name">Launcher3</string>
-  <!-- Default folder name -->
-  <!-- Work folder name -->
-  <string name="work_folder_name">Werk</string>
-  <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">App is niet geïnstalleerd.</string>
-  <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">App is niet beschikbaar</string>
-  <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">Gedownloade app uitgeschakeld in veilige modus</string>
-  <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Widgets uitgeschakeld in Veilige modus</string>
-  <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-  <string name="shortcut_not_available">Snelkoppeling is niet beschikbaar</string>
-  <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-  <string name="home_screen">Startscherm</string>
-  <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
-  <string name="custom_actions">Aangepaste acties</string>
-  <!-- Widgets -->
-  <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Blijf aanraken om een widget toe te voegen.</string>
-  <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Dubbeltik en blijf aanraken om een widget toe te voegen of aangepaste acties te gebruiken.</string>
-  <!-- The format string for the dimensions of a widget in the drawer -->
-  <!-- There is a special version of this format string for Farsi -->
-  <string name="widget_dims_format">%1$d × %2$d</string>
-  <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
-  <string name="widget_accessible_dims_format">%1$d breed en %2$d hoog</string>
-  <!-- Message to tell the user to press and hold a widget/icon to add it  -->
-  <string name="add_item_request_drag_hint">Tik op een item en houd dit vast om het handmatig te plaatsen</string>
-  <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
-  <string name="place_automatically">Automatisch toevoegen</string>
-  <!-- All Apps -->
-  <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Apps zoeken</string>
-  <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Apps laden…</string>
-  <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">Er zijn geen apps gevonden die overeenkomen met \'<xliff:g id="QUERY">%1$s</xliff:g>\'</string>
-  <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Zoeken naar meer apps</string>
-  <!-- Popup items -->
-  <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
-  <string name="notifications_header">Meldingen</string>
-  <!-- Drag and drop -->
-  <!-- Error message when user has filled a home screen -->
-  <string name="out_of_space">Er is geen ruimte meer op dit startscherm.</string>
-  <!-- Error message when user has filled the hotseat -->
-  <string name="hotseat_out_of_space">Geen ruimte meer in het vak \'Favorieten\'</string>
-  <!-- All applications label -->
-  <string name="all_apps_button_label">Lijst met apps</string>
-  <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+    <!-- General -->
+    <!-- Application name -->
+    <string name="app_name">Launcher3</string>
+    <!-- Default folder name -->
+    <!-- Work folder name -->
+    <string name="work_folder_name">Werk</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">App is niet geïnstalleerd.</string>
+    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+    <string name="activity_not_available">App is niet beschikbaar</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">Gedownloade app uitgeschakeld in veilige modus</string>
+    <!-- SafeMode widget error string -->
+    <string name="safemode_widget_error">Widgets uitgeschakeld in Veilige modus</string>
+    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+    <string name="shortcut_not_available">Snelkoppeling is niet beschikbaar</string>
+    <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
+    <string name="home_screen">Startscherm</string>
+    <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
+    <string name="custom_actions">Aangepaste acties</string>
+    <!-- Widgets -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">Blijf aanraken om een widget toe te voegen.</string>
+    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
+    <string name="long_accessible_way_to_add">Dubbeltik en blijf aanraken om een widget toe te voegen of aangepaste acties te gebruiken.</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <string name="widget_dims_format">%1$d × %2$d</string>
+    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
+    <string name="widget_accessible_dims_format">%1$d breed en %2$d hoog</string>
+    <!-- Message to tell the user to press and hold a widget/icon to add it  -->
+    <string name="add_item_request_drag_hint">Tik op een item en houd dit vast om het handmatig te plaatsen</string>
+    <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
+    <string name="place_automatically">Automatisch toevoegen</string>
+    <!-- All Apps -->
+    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_bar_hint">Apps zoeken</string>
+    <!-- Loading apps text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">Apps laden…</string>
+    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_no_search_results">Er zijn geen apps gevonden die overeenkomen met \'<xliff:g id="QUERY">%1$s</xliff:g>\'</string>
+    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_market_message">Zoeken naar meer apps</string>
+    <!-- Popup items -->
+    <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
+    <string name="notifications_header">Meldingen</string>
+    <!-- Drag and drop -->
+    <!-- Error message when user has filled a home screen -->
+    <string name="out_of_space">Er is geen ruimte meer op dit startscherm.</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">Geen ruimte meer in het vak \'Favorieten\'</string>
+    <!-- All applications label -->
+    <string name="all_apps_button_label">Lijst met apps</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-  <string name="all_apps_home_button_label">Homepage</string>
-  <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
-  <string name="remove_drop_target_label">Verwijderen</string>
-  <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-  <string name="uninstall_drop_target_label">Deïnstalleren</string>
-  <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">App-info</string>
-  <!-- Permissions: -->
-  <!-- Permission short label -->
-  <string name="permlab_install_shortcut">Snelle links instellen</string>
-  <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Een app toestaan snelkoppelingen toe te voegen zonder tussenkomst van de gebruiker.</string>
-  <!-- Permission short label -->
-  <string name="permlab_read_settings">instellingen en snelkoppelingen op de homepage lezen</string>
-  <!-- Permission description -->
-  <string name="permdesc_read_settings">De app toestaan de instellingen en snelkoppelingen op de homepage te lezen.</string>
-  <!-- Permission short label -->
-  <string name="permlab_write_settings">instellingen en snelkoppelingen op de homepage schrijven</string>
-  <!-- Permission description -->
-  <string name="permdesc_write_settings">De app toestaan de instellingen en snelkoppelingen op de homepage te wijzigen.</string>
-  <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> mag niet bellen</string>
-  <!-- Widgets: -->
-  <!-- Text to show user in place of a gadget when we can't display it properly -->
-  <string name="gadget_error_text">Probleem bij het laden van widget</string>
-  <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Configuratie</string>
-  <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">Dit is een systeemapp die niet kan worden verwijderd.</string>
-  <!-- Default folder title -->
-  <string name="folder_hint_text">Naamloze map</string>
-  <!-- Accessibility -->
-  <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> is uitgeschakeld</string>
-  <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
-  <string name="default_scroll_format">Pagina %1$d van %2$d</string>
-  <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <string name="workspace_scroll_format">Startscherm %1$d van %2$d</string>
-  <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Nieuwe startschermpagina</string>
-  <!-- Folder accessibility -->
-  <!-- The format string for when a folder is opened, speaks the dimensions -->
-  <string name="folder_opened">Map geopend, <xliff:g id="WIDTH">%1$d</xliff:g> bij <xliff:g id="HEIGHT">%2$d</xliff:g></string>
-  <!-- Instruction that clicking outside will close folder -->
-  <string name="folder_tap_to_close">Tik om de map te sluiten</string>
-  <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Tik om de gewijzigde naam op te slaan</string>
-  <!-- Indication that folder closed -->
-  <string name="folder_closed">Map gesloten</string>
-  <!-- Folder renamed format -->
-  <string name="folder_renamed">De naam van de map is gewijzigd in <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Folder name format -->
-  <string name="folder_name_format">Map: <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Strings for the customization mode -->
-  <!-- Text for widget add button -->
-  <string name="widget_button_text">Widgets</string>
-  <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Achtergrond</string>
-  <!-- Text for settings button -->
-  <string name="settings_button_text">Instellingen voor homepage</string>
-  <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Uitgeschakeld door je beheerder</string>
-  <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-  <string name="accessibility_action_overview">Overzicht</string>
-  <!-- Strings for settings -->
-  <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <string name="allow_rotation_title">Draaien van startscherm toestaan</string>
-  <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Wanneer de telefoon gedraaid is</string>
-  <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <string name="allow_rotation_blocked_desc">Huidige scherminstelling staat draaien niet toe</string>
-  <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
-  <string name="icon_badging_title">Meldingsstipjes</string>
-  <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
-  <string name="icon_badging_desc_on">Aan</string>
-  <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
-  <string name="icon_badging_desc_off">Uit</string>
-  <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
-  <string name="title_missing_notification_access">Toegang tot meldingen vereist</string>
-  <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-  <string name="msg_missing_notification_access">Als je meldingsstipjes wilt weergeven, schakel je app-meldingen in voor <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-  <string name="title_change_settings">Instellingen wijzigen</string>
-  <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-  <string name="auto_add_shortcuts_label">Pictogram toevoegen aan startscherm</string>
-  <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-  <string name="auto_add_shortcuts_description">Voor nieuwe apps</string>
-  <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Vorm van pictogram wijzigen</string>
-  <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Systeemstandaard gebruiken</string>
-  <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_square">Vierkant</string>
-  <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_squircle">Squircle</string>
-  <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-  <string name="icon_shape_circle">Cirkel</string>
-  <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-  <string name="icon_shape_teardrop">Traan</string>
-  <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-  <string name="icon_shape_override_progress">Wijzigingen in vorm van pictogram toepassen</string>
-  <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Onbekend</string>
-  <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Verwijderen</string>
-  <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Zoeken</string>
-  <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">Deze app is niet geïnstalleerd</string>
-  <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
+    <string name="all_apps_home_button_label">Homepage</string>
+    <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
+    <string name="remove_drop_target_label">Verwijderen</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
+    <string name="uninstall_drop_target_label">Deïnstalleren</string>
+    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
+    <string name="app_info_drop_target_label">App-info</string>
+    <!-- Permissions: -->
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">Snelle links instellen</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Een app toestaan snelkoppelingen toe te voegen zonder tussenkomst van de gebruiker.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">instellingen en snelkoppelingen op de homepage lezen</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">De app toestaan de instellingen en snelkoppelingen op de homepage te lezen.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">instellingen en snelkoppelingen op de homepage schrijven</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">De app toestaan de instellingen en snelkoppelingen op de homepage te wijzigen.</string>
+    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+    <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> mag niet bellen</string>
+    <!-- Widgets: -->
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Probleem bij het laden van widget</string>
+    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">Configuratie</string>
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">Dit is een systeemapp die niet kan worden verwijderd.</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Naamloze map</string>
+    <!-- Accessibility -->
+    <!-- The format string for when an app is temporarily disabled. -->
+    <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> is uitgeschakeld</string>
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">Pagina %1$d van %2$d</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">Startscherm %1$d van %2$d</string>
+    <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+    <string name="workspace_new_page">Nieuwe startschermpagina</string>
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">Map geopend, <xliff:g id="WIDTH">%1$d</xliff:g> bij <xliff:g id="HEIGHT">%2$d</xliff:g></string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">Tik om de map te sluiten</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">Tik om de gewijzigde naam op te slaan</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">Map gesloten</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">De naam van de map is gewijzigd in <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Folder name format -->
+    <string name="folder_name_format">Map: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Strings for the customization mode -->
+    <!-- Text for widget add button -->
+    <string name="widget_button_text">Widgets</string>
+    <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">Achtergrond</string>
+    <!-- Text for settings button -->
+    <string name="settings_button_text">Instellingen voor homepage</string>
+    <!-- Message shown when a feature is disabled by the administrator -->
+    <string name="msg_disabled_by_admin">Uitgeschakeld door je beheerder</string>
+    <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
+    <string name="accessibility_action_overview">Overzicht</string>
+    <!-- Strings for settings -->
+    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+    <string name="allow_rotation_title">Draaien van startscherm toestaan</string>
+    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+    <string name="allow_rotation_desc">Wanneer de telefoon gedraaid is</string>
+    <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
+    <string name="allow_rotation_blocked_desc">Huidige scherminstelling staat draaien niet toe</string>
+    <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
+    <string name="icon_badging_title">Meldingsstipjes</string>
+    <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
+    <string name="icon_badging_desc_on">Aan</string>
+    <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
+    <string name="icon_badging_desc_off">Uit</string>
+    <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
+    <string name="title_missing_notification_access">Toegang tot meldingen vereist</string>
+    <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
+    <string name="msg_missing_notification_access">Als je meldingsstipjes wilt weergeven, schakel je app-meldingen in voor <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
+    <string name="title_change_settings">Instellingen wijzigen</string>
+    <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
+    <string name="auto_add_shortcuts_label">Pictogram toevoegen aan startscherm</string>
+    <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
+    <string name="auto_add_shortcuts_description">Voor nieuwe apps</string>
+    <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
+    <string name="icon_shape_override_label">Vorm van pictogram wijzigen</string>
+    <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
+    <string name="icon_shape_system_default">Systeemstandaard gebruiken</string>
+    <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
+    <string name="icon_shape_square">Vierkant</string>
+    <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
+    <string name="icon_shape_squircle">Squircle</string>
+    <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
+    <string name="icon_shape_circle">Cirkel</string>
+    <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
+    <string name="icon_shape_teardrop">Traan</string>
+    <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
+    <string name="icon_shape_override_progress">Wijzigingen in vorm van pictogram toepassen</string>
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">Onbekend</string>
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">Verwijderen</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">Zoeken</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">Deze app is niet geïnstalleerd</string>
+    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">De app voor dit pictogram is niet geïnstalleerd. Je kunt het pictogram verwijderen of de app zoeken en handmatig installeren.</string>
-  <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> wordt gedownload, <xliff:g id="PROGRESS">%2$s</xliff:g> voltooid</string>
-  <!-- Title for an app whose download has been started. -->
-  <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> wacht op installatie</string>
-  <!-- Strings for widgets & more in the popup container/bottom sheet -->
-  <!-- Title for a bottom sheet that shows widgets for a particular app -->
-  <string name="widgets_bottom_sheet_title"><xliff:g id="NAME">%1$s</xliff:g>-widgets</string>
-  <!-- Strings for accessibility actions -->
-  <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Toevoegen aan homepage</string>
-  <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-  <string name="action_move_here">Item hier naartoe verplaatsen</string>
-  <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Item toegevoegd aan startscherm</string>
-  <!-- Accessibility confirmation for item removed. -->
-  <string name="item_removed">Item verwijderd</string>
-  <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move">Item verplaatsen</string>
-  <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Verplaatsen naar rij <xliff:g id="NUMBER_0">%1$s</xliff:g>, kolom <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
-  <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Verplaatsen naar positie <xliff:g id="NUMBER">%1$s</xliff:g></string>
-  <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Verplaatsen naar positie <xliff:g id="NUMBER">%1$s</xliff:g> voor favorieten</string>
-  <!-- Accessibility confirmation for item move. -->
-  <string name="item_moved">Item verplaatst</string>
-  <!-- Accessibility description to move item into an existing folder. -->
-  <string name="add_to_folder">Toevoegen aan map: <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Accessibility description to move item into an existing folder containing an app. -->
-  <string name="add_to_folder_with_app">Toevoegen aan map met <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Accessibility confirmation for item added to folder. -->
-  <string name="added_to_folder">Item toegevoegd aan map</string>
-  <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Map maken met: <xliff:g id="NAME">%1$s</xliff:g></string>
-  <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Map gemaakt</string>
-  <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Verplaatsen naar startscherm</string>
-  <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Scherm naar links verplaatsen</string>
-  <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Scherm naar rechts verplaatsen</string>
-  <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Scherm verplaatst</string>
-  <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Formaat aanpassen</string>
-  <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Breedte vergroten</string>
-  <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Hoogte vergroten</string>
-  <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Breedte verkleinen</string>
-  <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Hoogte verkleinen</string>
-  <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Formaat van widget gewijzigd in breedte <xliff:g id="NUMBER_0">%1$s</xliff:g> en hoogte <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
-  <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Snelkoppelingen</string>
-  <!-- Accessibility description for the shortcuts menu shown for an app. -->
-  <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> snelkoppelingen voor <xliff:g id="APP_NAME">%2$s</xliff:g></string>
-  <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
-  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> snelkoppelingen en <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> meldingen voor <xliff:g id="APP_NAME">%3$s</xliff:g></string>
-  <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_dismiss_notification">Sluiten</string>
-  <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Melding gesloten</string>
-  <string name="smartspace_preferences">Voorkeuren</string>
-  <string name="label_search">Zoeken</string>
-  <string name="label_voice_search">Gesproken zoekopdrachten</string>
-  <string name="pref_icon_pack">Pictogrampakket</string>
-  <string name="state_loading">Toepassen…</string>
-  <string name="smartspace_preferences_in_settings">Snel overzicht</string>
-  <string name="smartspace_preferences_in_settings_desc">Bovenaan het startscherm</string>
-  <string name="title_show_google_app">%1$s weergeven</string>
-  <string name="msg_minus_one_on_left">Links van het centrale startscherm</string>
-  <string name="about">Over</string>
-  <string name="title_google_app">Google-app</string>
-  <string name="title_app_suggestions">App-suggesties weergeven</string>
-  <string name="summary_app_suggestions">Bovenaan je lijst \'Alle apps\'</string>
-  <string name="about_app_version">Versie</string>
-  <string name="app_name_pixel_launcher">Pixel Launcher</string>
-  <string name="title_disable_suggestions_prompt">App-suggesties uitschakelen?</string>
-  <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan je lijst met apps en de gebruiksgegevens op basis waarvan ze worden gemaakt, worden definitief verwijderd."</string>
-  <string name="label_turn_off_suggestions">UITSCHAKELEN</string>
-  <!-- Preference categories -->
-  <!-- About -->
-  <!-- Hidden app -->
-  <!-- Swipe up indicator -->
-  <!-- Hide/Show search bars -->
+    <string name="abandoned_promise_explanation">De app voor dit pictogram is niet geïnstalleerd. Je kunt het pictogram verwijderen of de app zoeken en handmatig installeren.</string>
+    <!-- Title for an app which is being downloaded. -->
+    <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> wordt gedownload, <xliff:g id="PROGRESS">%2$s</xliff:g> voltooid</string>
+    <!-- Title for an app whose download has been started. -->
+    <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> wacht op installatie</string>
+    <!-- Strings for widgets & more in the popup container/bottom sheet -->
+    <!-- Title for a bottom sheet that shows widgets for a particular app -->
+    <string name="widgets_bottom_sheet_title"><xliff:g id="NAME">%1$s</xliff:g>-widgets</string>
+    <!-- Strings for accessibility actions -->
+    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_add_to_workspace">Toevoegen aan homepage</string>
+    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+    <string name="action_move_here">Item hier naartoe verplaatsen</string>
+    <!-- Accessibility confirmation for item added to workspace. -->
+    <string name="item_added_to_workspace">Item toegevoegd aan startscherm</string>
+    <!-- Accessibility confirmation for item removed. -->
+    <string name="item_removed">Item verwijderd</string>
+    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move">Item verplaatsen</string>
+    <!-- Accessibility description to move item to empty cell. -->
+    <string name="move_to_empty_cell">Verplaatsen naar rij <xliff:g id="NUMBER_0">%1$s</xliff:g>, kolom <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+    <!-- Accessibility description to move item inside a folder. -->
+    <string name="move_to_position">Verplaatsen naar positie <xliff:g id="NUMBER">%1$s</xliff:g></string>
+    <!-- Accessibility description to move item to the hotseat. -->
+    <string name="move_to_hotseat_position">Verplaatsen naar positie <xliff:g id="NUMBER">%1$s</xliff:g> voor favorieten</string>
+    <!-- Accessibility confirmation for item move. -->
+    <string name="item_moved">Item verplaatst</string>
+    <!-- Accessibility description to move item into an existing folder. -->
+    <string name="add_to_folder">Toevoegen aan map: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility description to move item into an existing folder containing an app. -->
+    <string name="add_to_folder_with_app">Toevoegen aan map met <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility confirmation for item added to folder. -->
+    <string name="added_to_folder">Item toegevoegd aan map</string>
+    <!-- Accessibility description to create folder with another item. -->
+    <string name="create_folder_with">Map maken met: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility confirmation for folder created. -->
+    <string name="folder_created">Map gemaakt</string>
+    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move_to_workspace">Verplaatsen naar startscherm</string>
+    <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
+    <string name="action_move_screen_left">Scherm naar links verplaatsen</string>
+    <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
+    <string name="action_move_screen_right">Scherm naar rechts verplaatsen</string>
+    <!-- Accessibility confirmation when a screen was moved. -->
+    <string name="screen_moved">Scherm verplaatst</string>
+    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+    <string name="action_resize">Formaat aanpassen</string>
+    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_width">Breedte vergroten</string>
+    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_height">Hoogte vergroten</string>
+    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_width">Breedte verkleinen</string>
+    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_height">Hoogte verkleinen</string>
+    <!-- Accessibility confirmation for widget resize. -->
+    <string name="widget_resized">Formaat van widget gewijzigd in breedte <xliff:g id="NUMBER_0">%1$s</xliff:g> en hoogte <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_deep_shortcut">Snelkoppelingen</string>
+    <!-- Accessibility description for the shortcuts menu shown for an app. -->
+    <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> snelkoppelingen voor <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+    <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
+    <string name="shortcuts_menu_with_notifications_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> snelkoppelingen en <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> meldingen voor <xliff:g id="APP_NAME">%3$s</xliff:g></string>
+    <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_dismiss_notification">Sluiten</string>
+    <!-- Accessibility confirmation for notification being dismissed. -->
+    <string name="notification_dismissed">Melding gesloten</string>
+    <string name="smartspace_preferences">Voorkeuren</string>
+    <string name="label_search">Zoeken</string>
+    <string name="label_voice_search">Gesproken zoekopdrachten</string>
+    <string name="pref_icon_pack">Pictogrampakket</string>
+    <string name="state_loading">Toepassen…</string>
+    <string name="smartspace_preferences_in_settings">Snel overzicht</string>
+    <string name="smartspace_preferences_in_settings_desc">Bovenaan het startscherm</string>
+    <string name="title_show_google_app">%1$s weergeven</string>
+    <string name="msg_minus_one_on_left">Links van het centrale startscherm</string>
+    <string name="about">Over</string>
+    <string name="title_google_app">Google-app</string>
+    <string name="title_app_suggestions">App-suggesties weergeven</string>
+    <string name="summary_app_suggestions">Bovenaan je lijst \'Alle apps\'</string>
+    <string name="about_app_version">Versie</string>
+    <string name="app_name_pixel_launcher">Pixel Launcher</string>
+    <string name="title_disable_suggestions_prompt">App-suggesties uitschakelen?</string>
+    <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan je lijst met apps en de gebruiksgegevens op basis waarvan ze worden gemaakt, worden definitief verwijderd."</string>
+    <string name="label_turn_off_suggestions">UITSCHAKELEN</string>
+    <!-- Preference categories -->
+    <!-- About -->
+    <!-- Hidden app -->
+    <!-- Swipe up indicator -->
+    <!-- Hide/Show search bars -->
 </resources>

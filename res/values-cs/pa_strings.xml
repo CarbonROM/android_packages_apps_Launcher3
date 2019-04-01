@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">Výchozí</string>
-  <string name="icons_pack_name">Balíček ikon</string>
-  <string name="edit_drop_target_label">Upravit</string>
-  <string name="edit_app">Upravit</string>
-  <string name="reset_icon">Obnovit</string>
-  <string name="customize">Přizpůsobit</string>
-  <string name="visual">Vzhled</string>
-  <string name="all_icons">Všechny ikony</string>
-  <string name="similar_icons">Podobné ikony</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Popis</string>
-  <string name="loading">Načítání, čekejte prosím</string>
-  <string name="icon_chooser">Výběr ikon</string>
-  <string name="icon_search">Vyhledat ikony</string>
-  <string name="icon_pack_updated">Balíček ikon spouštěče byl aktualizován. Pro vaše aplikace budou k dispozici nové ikony.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Výchozí</string>
+    <string name="icons_pack_name">Balíček ikon</string>
+    <string name="edit_drop_target_label">Upravit</string>
+    <string name="edit_app">Upravit</string>
+    <string name="reset_icon">Obnovit</string>
+    <string name="customize">Přizpůsobit</string>
+    <string name="visual">Vzhled</string>
+    <string name="all_icons">Všechny ikony</string>
+    <string name="similar_icons">Podobné ikony</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Popis</string>
+    <string name="loading">Načítání, čekejte prosím</string>
+    <string name="icon_chooser">Výběr ikon</string>
+    <string name="icon_search">Vyhledat ikony</string>
+    <string name="icon_pack_updated">Balíček ikon spouštěče byl aktualizován. Pro vaše aplikace budou k dispozici nové ikony.</string>
 </resources>

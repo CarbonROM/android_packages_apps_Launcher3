@@ -18,8 +18,19 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="loading">Laddar, var vänlig vänta</string>
-  <string name="icon_chooser">Ikon-väljare</string>
-  <string name="icon_search">Sök efter ikoner</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Standard</string>
+    <string name="icons_pack_name">Ikon-paket</string>
+    <string name="edit_drop_target_label">Redigera</string>
+    <string name="edit_app">Redigera</string>
+    <string name="reset_icon">Återställ</string>
+    <string name="customize">Anpassa</string>
+    <string name="visual">Visuell</string>
+    <string name="all_icons">Alla ikoner</string>
+    <string name="similar_icons">Liknande ikoner</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Etikett</string>
+    <string name="loading">Laddar, var vänlig vänta</string>
+    <string name="icon_chooser">Ikon-väljare</string>
+    <string name="icon_search">Sök efter ikoner</string>
 </resources>

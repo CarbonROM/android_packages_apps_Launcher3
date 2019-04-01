@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">Predvolený</string>
-  <string name="icons_pack_name">Balíček ikon</string>
-  <string name="edit_drop_target_label">Upraviť</string>
-  <string name="edit_app">Upraviť</string>
-  <string name="reset_icon">Resetovať</string>
-  <string name="customize">Prispôsobiť</string>
-  <string name="visual">Vzhľad</string>
-  <string name="all_icons">Všetky ikony</string>
-  <string name="similar_icons">Podobné ikony</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Názov</string>
-  <string name="loading">Načítavam, prosím čakajte</string>
-  <string name="icon_chooser">Výber ikon</string>
-  <string name="icon_search">Vyhľadajte ikony</string>
-  <string name="icon_pack_updated">Balík ikon spúšťača bol aktualizovaný. Budú k dispozícii nové ikony pre vaše aplikácie.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Predvolený</string>
+    <string name="icons_pack_name">Balíček ikon</string>
+    <string name="edit_drop_target_label">Upraviť</string>
+    <string name="edit_app">Upraviť</string>
+    <string name="reset_icon">Resetovať</string>
+    <string name="customize">Prispôsobiť</string>
+    <string name="visual">Vzhľad</string>
+    <string name="all_icons">Všetky ikony</string>
+    <string name="similar_icons">Podobné ikony</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Názov</string>
+    <string name="loading">Načítavam, prosím čakajte</string>
+    <string name="icon_chooser">Výber ikon</string>
+    <string name="icon_search">Vyhľadajte ikony</string>
+    <string name="icon_pack_updated">Balík ikon spúšťača bol aktualizovaný. Budú k dispozícii nové ikony pre vaše aplikácie.</string>
 </resources>

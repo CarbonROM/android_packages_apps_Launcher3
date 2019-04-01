@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">По умолчанию</string>
-  <string name="icons_pack_name">Набор иконок</string>
-  <string name="edit_drop_target_label">Изменить</string>
-  <string name="edit_app">Изменить</string>
-  <string name="reset_icon">Сбросить</string>
-  <string name="customize">Настроить</string>
-  <string name="visual">Визуальные</string>
-  <string name="all_icons">Все иконки</string>
-  <string name="similar_icons">Похожие иконки</string>
-  <string name="ok">Ок</string>
-  <string name="icon_label">Ярлык</string>
-  <string name="loading">Загрузка, пожалуйста, подождите</string>
-  <string name="icon_chooser">Выбор иконок</string>
-  <string name="icon_search">Найти иконки</string>
-  <string name="icon_pack_updated">Обновлен пакет значков вашего лончера, новые значки для ваших приложений должны быть доступны.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">По умолчанию</string>
+    <string name="icons_pack_name">Набор иконок</string>
+    <string name="edit_drop_target_label">Изменить</string>
+    <string name="edit_app">Изменить</string>
+    <string name="reset_icon">Сбросить</string>
+    <string name="customize">Настроить</string>
+    <string name="visual">Визуальные</string>
+    <string name="all_icons">Все иконки</string>
+    <string name="similar_icons">Похожие иконки</string>
+    <string name="ok">Ок</string>
+    <string name="icon_label">Ярлык</string>
+    <string name="loading">Загрузка, пожалуйста, подождите</string>
+    <string name="icon_chooser">Выбор иконок</string>
+    <string name="icon_search">Найти иконки</string>
+    <string name="icon_pack_updated">Обновлен пакет значков вашего лончера, новые значки для ваших приложений должны быть доступны.</string>
 </resources>

@@ -19,19 +19,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Icon pack -->
-    <string name="default_iconpack_title">Padrão</string>
-    <string name="icons_pack_name">Pacote de ícones</string>
+    <string name="default_iconpack_title">Por defecto</string>
+    <string name="icons_pack_name">Paquete de íconos</string>
     <string name="edit_drop_target_label">Editar</string>
     <string name="edit_app">Editar</string>
-    <string name="reset_icon">Redefinir</string>
+    <string name="reset_icon">Reiniciar</string>
     <string name="customize">Personalizar</string>
-    <string name="visual">Aparência</string>
-    <string name="all_icons">Todos os ícones</string>
-    <string name="similar_icons">Ícones semelhantes</string>
-    <string name="ok">Ok</string>
-    <string name="icon_label">Título</string>
-    <string name="loading">Carregando, por favor, aguarde</string>
-    <string name="icon_chooser">Seletor de ícones</string>
-    <string name="icon_search">Procurar por ícones</string>
-    <string name="icon_pack_updated">O pacote de ícones do seu lançador foi atualizado. Novos ícones para seus aplicativos podem estar disponíveis.</string>
+    <string name="visual">Visual</string>
+    <string name="all_icons">Todos los íconos</string>
+    <string name="similar_icons">Íconos similares</string>
+    <string name="ok">Aceptar</string>
+    <string name="icon_label">Etiqueta</string>
+    <string name="loading">Cargando, por favor espera</string>
+    <string name="icon_chooser">Selector de ícono</string>
+    <string name="icon_search">Buscar íconos</string>
+    <string name="icon_pack_updated">El paquete de íconos del lanzador fue actualizado, puede que haya nuevos íconos par tus apps.</string>
 </resources>

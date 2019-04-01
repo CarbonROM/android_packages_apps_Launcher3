@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">Varsayılan</string>
-  <string name="icons_pack_name">Simge paketi</string>
-  <string name="edit_drop_target_label">Düzenle</string>
-  <string name="edit_app">Düzenle</string>
-  <string name="reset_icon">Sıfırla</string>
-  <string name="customize">Özelleştir</string>
-  <string name="visual">Görsel</string>
-  <string name="all_icons">Tüm simgeler</string>
-  <string name="similar_icons">Benzer simgeler</string>
-  <string name="ok">Tamam</string>
-  <string name="icon_label">Etiket</string>
-  <string name="loading">Yükleniyor, lütfen bekleyin</string>
-  <string name="icon_chooser">Simge seçici</string>
-  <string name="icon_search">Simgeleri ara</string>
-  <string name="icon_pack_updated">Başlatıcı simge paketiniz güncellendi, uygulamalarınız için yeni simgeler mevcut olabilir.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Varsayılan</string>
+    <string name="icons_pack_name">Simge paketi</string>
+    <string name="edit_drop_target_label">Düzenle</string>
+    <string name="edit_app">Düzenle</string>
+    <string name="reset_icon">Sıfırla</string>
+    <string name="customize">Özelleştir</string>
+    <string name="visual">Görsel</string>
+    <string name="all_icons">Tüm simgeler</string>
+    <string name="similar_icons">Benzer simgeler</string>
+    <string name="ok">Tamam</string>
+    <string name="icon_label">Etiket</string>
+    <string name="loading">Yükleniyor, lütfen bekleyin</string>
+    <string name="icon_chooser">Simge seçici</string>
+    <string name="icon_search">Simgeleri ara</string>
+    <string name="icon_pack_updated">Başlatıcı simge paketiniz güncellendi, uygulamalarınız için yeni simgeler mevcut olabilir.</string>
 </resources>

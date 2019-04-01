@@ -18,20 +18,20 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Icon pack -->
-  <string name="default_iconpack_title">Privzeto</string>
-  <string name="icons_pack_name">Paket ikon</string>
-  <string name="edit_drop_target_label">Uredi</string>
-  <string name="edit_app">Uredi</string>
-  <string name="reset_icon">Ponastavi</string>
-  <string name="customize">Prilagodi</string>
-  <string name="visual">Vizualni</string>
-  <string name="all_icons">Vse ikone</string>
-  <string name="similar_icons">Podobne ikone</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Oznaka</string>
-  <string name="loading">Nalagam, prosimo počakajte</string>
-  <string name="icon_chooser">Izbira ikon</string>
-  <string name="icon_search">Poišči ikone</string>
-  <string name="icon_pack_updated">Paket ikon zaganjalnika je bil posodobljen. Nove ikone za aplikacije so morda na voljo.</string>
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Privzeto</string>
+    <string name="icons_pack_name">Paket ikon</string>
+    <string name="edit_drop_target_label">Uredi</string>
+    <string name="edit_app">Uredi</string>
+    <string name="reset_icon">Ponastavi</string>
+    <string name="customize">Prilagodi</string>
+    <string name="visual">Vizualni</string>
+    <string name="all_icons">Vse ikone</string>
+    <string name="similar_icons">Podobne ikone</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Oznaka</string>
+    <string name="loading">Nalagam, prosimo počakajte</string>
+    <string name="icon_chooser">Izbira ikon</string>
+    <string name="icon_search">Poišči ikone</string>
+    <string name="icon_pack_updated">Paket ikon zaganjalnika je bil posodobljen. Nove ikone za aplikacije so morda na voljo.</string>
 </resources>
