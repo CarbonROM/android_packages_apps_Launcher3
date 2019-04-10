@@ -270,8 +270,30 @@
     <string name="msg_disable_suggestions_prompt">"Οι προτάσεις που δεν θα εμφανίζονται στο επάνω μέρος της λίστας των εφαρμογών σας και τα δεδομένα χρήσης που χρησιμοποιούνται για τη δημιουργία τους θα διαγραφούν οριστικά."</string>
     <string name="label_turn_off_suggestions">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
     <!-- Preference categories -->
+    <string name="home_category_title">Αρχική οθόνη</string>
+    <string name="app_drawer_category_title">Συρτάρι εφαρμογών</string>
+    <string name="icon_category_title">Εικονίδια εφαρμογών</string>
+    <string name="widget_category_title">Γραφικά στοιχεία</string>
+    <string name="other_category_title">Άλλο</string>
+    <string name="other_category_summary">Διάφορες ρυθμίσεις</string>
     <!-- About -->
+    <string name="about_credits">Μνεία</string>
+    <string name="about_credits_ok">Εντάξει</string>
+    <string name="about_amirzaidi_url">https://GitHub.com/ezio84</string>
     <!-- Hidden app -->
+    <string name="hide_app">Απόκρυψη εφαρμογών</string>
+    <string name="hide_app_sum">Απόκρυψη εφαρμογών από το συρτάρι εφαρμογών</string>
+    <string name="hide_app_selected">&#160;επιλεγμένες</string>
+    <string name="hidden_app">Όλες οι εφαρμογές</string>
+    <string name="hide_selected">Απόκρυψη επιλεγμένης(ων) εφαρμογής(ων)</string>
+    <string name="more">Περισσότερα</string>
+    <string name="reset_hidden_apps_done">Οι κρυφές εφαρμογές είναι τώρα διαθέσιμες</string>
     <!-- Swipe up indicator -->
+    <string name="pref_show_clock_weather">Ημερομηνία και καιρός αρχικής οθόνης</string>
+    <string name="pref_show_clock_weather_both">Εμφάνιση ημερομηνίας και καιρού</string>
+    <string name="pref_show_clock_weather_nothing">Να μην εμφανίζεται</string>
+    <string name="pref_show_clock_weather_clock_only">Εμφάνιση μόνο ημερομηνίας</string>
+    <string name="pref_show_clock_weather_weather_only">Εμφάνιση μόνο καιρού</string>
     <!-- Hide/Show search bars -->
+    <string name="bottom_search_bar_title">Εμφάνιση κάτω γραμμής αναζήτησης</string>
 </resources>
