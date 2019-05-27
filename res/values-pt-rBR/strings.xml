@@ -20,6 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General -->
     <!-- Application name -->
+    <string name="app_name">Launcher3</string>
     <!-- Default folder name -->
     <!-- Work folder name -->
     <string name="work_folder_name">Trabalho</string>
@@ -72,6 +73,8 @@
     <string name="hotseat_out_of_space">Não existe mais espaço em Favoritos</string>
     <!-- All applications label -->
     <string name="all_apps_button_label">Lista de aplicações</string>
+    <string name="all_apps_button_personal_label">Lista de aplicativos pessoais</string>
+    <string name="all_apps_button_work_label">Lista de aplicativos de trabalho</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
     <string name="all_apps_home_button_label">Início</string>
@@ -82,6 +85,7 @@
     <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
     <string name="app_info_drop_target_label">Informação do Aplicativo</string>
     <!-- Label for install drop target. [CHAR_LIMIT=20] -->
+    <string name="install_drop_target_label">Instalar</string>
     <!-- Permissions: -->
     <!-- Permission short label -->
     <string name="permlab_install_shortcut">instalar atalhos</string>
@@ -189,6 +193,7 @@
     <!-- Title for a bottom sheet that shows widgets for a particular app -->
     <string name="widgets_bottom_sheet_title">Widgets de <xliff:g id="Name">%1$s</xliff:g></string>
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
+    <string name="widgets_list">Lista de widgets</string>
     <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
@@ -241,12 +246,16 @@
     <!-- Accessibility confirmation for notification being dismissed. -->
     <string name="notification_dismissed">Notificação ignorada</string>
     <!-- Label of tab to indicate personal apps -->
+    <string name="all_apps_personal_tab">Pessoal</string>
     <!-- Label of tab to indicate work apps -->
     <string name="all_apps_work_tab">Trabalho</string>
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. This is a label for a toggle to turn the work profile on and off. "Work profile" means a separate profile on a user's phone that's specifically for their work apps and managed by their company. "Work" is used as an adjective.-->
+    <string name="work_profile_toggle_label">Perfil de trabalho</string>
     <!-- Title of an overlay in All Apps. This overlay is letting a user know about their work profile, which is managed by their employer. "Work apps" are apps in a user's work profile.-->
     <!-- Text in an overlay in All Apps. This overlay is letting a user know about their work profile, which is managed by their employer.-->
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. It describes the label of a toggle, "Work profile," as being managed by the user's employer.
     "Organization" is used to represent a variety of businesses, non-profits, and educational institutions).-->
     <!-- This string appears under a the label of a toggle in the work profile tab on a user's phone. It describes the status of the toggle, "Work profile," when it's turned off. "Work profile" means a separate profile on a user's phone that's speficially for their work apps and is managed by their company.-->
+    <string name="bottom_work_tab_user_education_close_button">Fechar</string>
+    <string name="bottom_work_tab_user_education_closed">Fechado</string>
 </resources>

@@ -25,15 +25,49 @@
     <string name="icons_category_title">Icone</string>
     <string name="icons_category_summary">Pacchetto icone, forma, dimensione e punti di notifica</string>
     <string name="app_drawer_category_title">App drawer</string>
+    <string name="app_drawer_category_summary">Nascondi le etichette delle app e del drawer</string>
+    <string name="recents_category_title">Recenti</string>
+    <string name="recents_category_summary">Personalizza la tua scheda recenti</string>
+    <string name="gestures_category_title">Gesti</string>
+    <string name="gestures_category_summary">Doppio tocco, notifiche e gesti cancella-tutti</string>
     <!-- Sub categories -->
-    <!-- Icon labels -->
+    <string name="home_grid_title">Layout griglia</string>
+    <string name="icon_layout_title">Layout icona</string>
     <!-- Icon packs -->
+    <string name="icon_pack">Pacchetto icone</string>
+    <string name="icon_pack_summary">Cambia l\'aspetto delle tue icone app</string>
+    <string name="icon_pack_none">Predefinito</string>
+    <!-- Toast message for alerting users that no icon packs are available. -->
     <!-- Icon shape -->
+    <string name="icon_shape_override_label_custom">Forma icona</string>
+    <string name="icon_shape_rounded_square">Quadrato arrotondato</string>
     <!-- Icon size -->
+    <string name="icon_size_title">Dimensione icona</string>
     <!-- Gestures -->
+    <string name="allow_swipe_down_clearall_title">Cancella tutto dalla vista recenti</string>
+    <string name="allow_swipe_down_clearall_desc">Scorri verticalmente verso il basso nella visualizzazione recenti per cancellare tutte le app</string>
+    <string name="pref_homescreen_dt_gestures_title">Gesto doppio tocco</string>
+    <string name="pref_homescreen_dt_gestures_summary">Seleziona l\'azione del doppio tocco sulla schermata home</string>
+    <string name="pref_homescreen_dt_gestures_none">Nessuno</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Spegni schermo</string>
+    <string name="pref_homescreen_dt_gestures_torch">Torcia</string>
+    <string name="pref_homescreen_dt_gestures_google">Ricerca Google</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">La ricerca Google non è installata</string>
+    <string name="pref_notifications_gesture_title">Gesto notifiche</string>
+    <string name="pref_notifications_gesture_summary">Scorri verticalmente verso il basso nella schermata home per mostrare il pannello QS</string>
     <!-- Google Feed -->
+    <string name="google_feed_title">Abilita Google App e Ricerca</string>
     <!-- Grid -->
+    <string name="num_default">Predefinito</string>
+    <string name="number_of_columns_title">Numero di colonne</string>
+    <string name="number_of_rows_title">Numero di righe</string>
+    <string name="number_of_hotseat_title">Numero di icone nel dock</string>
+    <string name="state_loading">Applicazione\u2026</string>
     <!-- Hidden apps -->
+    <string name="hide_app">Nascondi apps</string>
+    <string name="hide_app_sum">Nascondi app dal drawer</string>
+    <string name="hide_app_selected">&#160;selezionati</string>
+    <string name="hidden_app">Tutte le app</string>
     <string name="hide_selected">Nascondi app selezionata(e)</string>
     <string name="more">Altro</string>
     <string name="reset_hidden_apps">Ripristina tutto</string>
@@ -53,6 +87,7 @@
     <!-- Recents corned -->
     <string name="custom_recents_corners_switch_title">Usa angoli recenti arrotondati personalizzati</string>
     <string name="custom_recents_corners_switch_summary">Se disabilitato, utilizzerà quello fornito dal sistema/tema. Per applicare il nuovo valore, vai alla home dopo aver selezionato l\'opzione.</string>
+    <string name="custom_recents_corners_type_title">Angolo recenti personalizzato</string>
     <string name="custom_recents_corners_type_default">Predefinito</string>
     <string name="custom_recents_corners_type_card">Carta arrotondata</string>
     <string name="custom_recents_corners_type_op">Stile OP</string>
