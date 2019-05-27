@@ -31,13 +31,11 @@
     <!-- Sub categories -->
     <string name="home_grid_title">Disposition de la grille</string>
     <string name="icon_layout_title">Disposition des icônes</string>
-    <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Libellés des applications</string>
-    <string name="allapps_long_labels_summary">Afficher les libellés des applications sur deux lignes</string>
     <!-- Icon packs -->
     <string name="icon_pack">Paquet d\'icônes</string>
     <string name="icon_pack_summary">Modifier l\'apparence des icônes d\'applications</string>
     <string name="icon_pack_none">Par défaut</string>
+    <!-- Toast message for alerting users that no icon packs are available. -->
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">Apparence des icônes</string>
     <string name="icon_shape_rounded_square">Carré arrondi</string>

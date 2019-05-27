@@ -33,13 +33,11 @@
     <!-- Sub categories -->
     <string name="home_grid_title">Raster-Layout</string>
     <string name="icon_layout_title">Symbol Layout</string>
-    <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Lange App Beschriftungen</string>
-    <string name="allapps_long_labels_summary">Ermöglicht es Apps, Beschriftungen mit zwei Linien anzuzeigen</string>
     <!-- Icon packs -->
     <string name="icon_pack">Symbol-Paket</string>
     <string name="icon_pack_summary">Ändern Sie das Aussehen Ihrer App-Symbole</string>
     <string name="icon_pack_none">Standard</string>
+    <!-- Toast message for alerting users that no icon packs are available. -->
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">Symbolform</string>
     <string name="icon_shape_rounded_square">Abgerundetes Quadrat</string>
@@ -89,6 +87,7 @@
     <string name="lock_desktop_toast">Desktop ist gesperrt. Entsperren Sie es um den Vorgang fortzusetzen.</string>
     <!-- Recents corned -->
     <string name="custom_recents_corners_switch_title">Verwenden Sie abgerundete Ecken im Anwendungsverlauf</string>
+    <string name="custom_recents_corners_switch_summary">Wenn deaktiviert, wird es die vom System/Theme verwenden. Um den neuen Wert anzuwenden, gehen Sie nach der Auswahl Ihrer Option auf die Startseite.</string>
     <string name="custom_recents_corners_type_title">Benutzerdefinierte Anwendungsverlaufs-Rundheit</string>
     <string name="custom_recents_corners_type_default">Standard</string>
     <string name="custom_recents_corners_type_card">Gerundete Karte</string>
