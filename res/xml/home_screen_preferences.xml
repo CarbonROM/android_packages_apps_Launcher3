@@ -37,6 +37,13 @@
         android:summary="@string/allow_rotation_desc"
         android:defaultValue="@bool/allow_rotation"
         android:persistent="true" />
+        
+    <SwitchPreference
+        android:key="pref_bottom_search_bar"
+        android:title="@string/bottom_search_bar_title"
+        android:summary="@string/bottom_search_bar_summary"
+        android:defaultValue="true"
+        android:persistent="true" />
 
     <PreferenceCategory
         android:key="home_grid_category"
@@ -61,5 +68,4 @@
             android:persistent="true" />
 
     </PreferenceCategory>
-
 </PreferenceScreen>
