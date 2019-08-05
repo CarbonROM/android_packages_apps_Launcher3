@@ -270,8 +270,47 @@
     <string name="msg_disable_suggestions_prompt">"Les suggestions ne s'afficheront pas en haut de votre liste d'applications, et les données d'utilisation employées pour les créer seront supprimées définitivement."</string>
     <string name="label_turn_off_suggestions">DÉSACTIVER</string>
     <!-- Preference categories -->
+    <string name="home_category_title">Écran d\'accueil</string>
+    <string name="app_drawer_category_title">Tiroir d\'applications</string>
+    <string name="icon_category_title">Icônes de l\'application</string>
+    <string name="widget_category_title">Gadgets</string>
+    <string name="other_category_title">Autres</string>
     <!-- About -->
+    <string name="about_credits">Crédits</string>
+    <string name="about_credits_ok">OK</string>
     <!-- Hidden app -->
+    <string name="hide_app">Masquer les applications</string>
+    <string name="hide_app_sum">Masquer les applications du tiroir d’application</string>
+    <string name="hidden_app">Toutes les applications</string>
+    <string name="hide_selected">Masquer les applications sélectionnées</string>
+    <string name="more">Plus</string>
+    <string name="reset_hidden_apps">Réinitialiser</string>
+    <string name="reset_hidden_apps_done">Les applications précédemment masquées sont maintenant affichées</string>
     <!-- Swipe up indicator -->
+    <string name="pref_show_clock_weather_both">Afficher la date et la météo</string>
+    <string name="pref_show_clock_weather_nothing">Ne pas afficher</string>
+    <string name="pref_show_clock_weather_clock_only">Afficher la date seulement</string>
+    <string name="pref_show_clock_weather_weather_only">Afficher la météo seulement</string>
     <!-- Hide/Show search bars -->
+    <string name="bottom_search_bar_title">Barre de recherche en bas</string>
+    <string name="bottom_search_bar_summary">Afficher la barre de recherche inférieure en bas du dock</string>
+    <string name="top_search_bar_title">Barre de recherche supérieure</string>
+    <string name="top_search_bar_summary">Afficher la barre de recherche en haut du tiroir d\'application</string>
+    <string name="num_default">Défaut</string>
+    <string name="num_three">Trois</string>
+    <string name="num_four">Quatre</string>
+    <string name="num_five">Cinq</string>
+    <string name="num_six">Six</string>
+    <string name="num_seven">Sept</string>
+    <string-array name="grid_values">
+        <item>par défaut</item>
+        <item>trois</item>
+        <item>quatre</item>
+        <item>cinq</item>
+        <item>six</item>
+        <item>sept</item>
+    </string-array>
+    <string name="grid_category_title">Colonnes et lignes</string>
+    <string name="icon_shape_rounded_square">Carré arrondi</string>
+    <string name="action_edit">Éditer</string>
 </resources>

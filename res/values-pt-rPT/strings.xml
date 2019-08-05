@@ -251,25 +251,92 @@
     <string name="action_dismiss_notification">Ignorar</string>
     <!-- Accessibility confirmation for notification being dismissed. -->
     <string name="notification_dismissed">Notificação ignorada</string>
+    <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
     <string name="smartspace_preferences">Preferências</string>
     <string name="label_search">Pesquisar</string>
     <string name="label_voice_search">Pesquisa por voz</string>
+    <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
+    <string name="pref_icon_pack">Pacote de ícones</string>
+    <string name="state_loading">A aplicar…</string>
     <string name="smartspace_preferences_in_settings">Resumo</string>
     <string name="smartspace_preferences_in_settings_desc">Na parte superior do ecrã principal</string>
     <string name="title_show_google_app">Apresentar %1$s</string>
+    <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
     <string name="msg_minus_one_on_left">À esquerda do ecrã principal</string>
     <string name="about">Acerca de</string>
     <string name="title_google_app">Aplicação Google</string>
     <string name="title_app_suggestions">Apresentar sugestões de aplicações</string>
     <string name="summary_app_suggestions">No topo da lista Todas as aplicações</string>
     <string name="about_app_version">Versão</string>
+    <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
     <string name="app_name_pixel_launcher">Iniciador do Pixel</string>
     <string name="title_disable_suggestions_prompt">Pretende desativar as sugestões de aplicações?</string>
     <string name="msg_disable_suggestions_prompt">"Não são apresentadas sugestões na parte superior da lista de aplicações e os dados de utilização utilizados para as criar são apagados de forma permanente."</string>
     <string name="label_turn_off_suggestions">DESATIVAR</string>
     <!-- Preference categories -->
+    <string name="home_category_title">Ecrã principal</string>
+    <string name="app_drawer_category_title">Gaveta de aplicações</string>
+    <string name="icon_category_title">Ícones de aplicação</string>
+    <string name="widget_category_title">Widgets</string>
+    <string name="other_category_title">Outro</string>
+    <string name="other_category_summary">Configurações diversas</string>
     <!-- About -->
+    <string name="about_credits">Créditos</string>
+    <string name="about_credits_ok">OK</string>
+    <string name="about_amirzaidi_title">Pixel Launcher 3 mod</string>
+    <string name="about_amirzaidi_summary">Recursos do lançador pixel projetado no Launcher 3 por Amir Zaidi, personalizado para ABC.</string>
+    <string name="about_amirzaidi_url">https://github.com/ezio84</string>
     <!-- Hidden app -->
+    <string name="hide_app">Esconder aplicações</string>
+    <string name="hide_app_sum">Esconder aplicações da gaveta de aplicações</string>
+    <string name="hide_app_selected">&#160;selecionado</string>
+    <string name="hidden_app">Todas as aplicações</string>
+    <string name="hide_selected">Esconder aplicação(ões) selecionado(s)</string>
+    <string name="more">Mais</string>
+    <string name="reset_hidden_apps">Repor tudo</string>
+    <string name="reset_hidden_apps_done">Aplicações escondidos agora disponíveis</string>
     <!-- Swipe up indicator -->
+    <string name="show_swipeup_arrow">Indicador ao deslizar para cima</string>
+    <string name="show_swipeup_arrow_summary">Mostrar o indicador de seta para cima no topo do dock</string>
+    <string name="pref_show_clock_weather">Data da ecrã principal e meteorologia</string>
+    <string name="pref_show_clock_weather_both">Mostrar ambos a data e a meteorologia</string>
+    <string name="pref_show_clock_weather_nothing">Não mostrar</string>
+    <string name="pref_show_clock_weather_clock_only">Mostrar apenas a data</string>
+    <string name="pref_show_clock_weather_weather_only">Mostrar apenas a meteorologia</string>
     <!-- Hide/Show search bars -->
+    <string name="bottom_search_bar_title">Barra de pesquisa inferior</string>
+    <string name="bottom_search_bar_summary">Mostrar a barra de pesquisa inferior na parte inferior do dock</string>
+    <string name="top_search_bar_title">Barra de pesquisa do topo</string>
+    <string name="top_search_bar_summary">Mostrar a barra de pesquisa no topo da gaveta de aplicações</string>
+    <string name="num_default">Predefinição</string>
+    <string name="num_three">Três</string>
+    <string name="num_four">Quatro</string>
+    <string name="num_five">Cinco</string>
+    <string name="num_six">Seis</string>
+    <string name="num_seven">Sete</string>
+    <string-array name="grid_names">
+        <item>@string/num_default</item>
+        <item>@string/num_three</item>
+        <item>@string/num_four</item>
+        <item>@string/num_five</item>
+        <item>@string/num_six</item>
+        <item>@string/num_seven</item>
+    </string-array>
+    <string-array name="grid_values">
+        <item>predefinição</item>
+        <item>três</item>
+        <item>quatro</item>
+        <item>cinco</item>
+        <item>seis</item>
+        <item>sete</item>
+    </string-array>
+    <string name="grid_category_title">Colunas e linhas</string>
+    <string name="number_of_columns_title">Colunas da grelha</string>
+    <string name="number_of_rows_title">Linhas da grelha</string>
+    <string name="number_of_hotseat_title">Ícones de Hotseat</string>
+    <string name="icon_shape_rounded_square">Quadrado arredondado</string>
+    <string name="action_edit">Editar</string>
+    <string name="pref_override_icon_shape_dark_bg_title">Usar forma escura</string>
+    <string name="pref_override_icon_shape_dark_bg_summary">Usar um cor de fundo escura para ícones sem a sua própria cor de forma</string>
+    <string name="smartspace_hours_mins">%1$s %2$s</string>
 </resources>

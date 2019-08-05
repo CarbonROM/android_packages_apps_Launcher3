@@ -270,8 +270,33 @@
     <string name="msg_disable_suggestions_prompt">"Ehdotuksia ei näytetä sovellusluettelosi yläosassa. Niiden luomiseen käytetyt tiedot poistetaan pysyvästi."</string>
     <string name="label_turn_off_suggestions">POISTA KÄYTÖSTÄ</string>
     <!-- Preference categories -->
+    <string name="app_drawer_category_title">Sovellusvalikko</string>
+    <string name="widget_category_title">Widgetit</string>
     <!-- About -->
+    <string name="about_credits_ok">OK</string>
     <!-- Hidden app -->
+    <string name="hide_app">Piilota sovelluksia</string>
+    <string name="hide_app_sum">Piilota sovelluksia sovellusvalikosta</string>
+    <string name="hide_app_selected">&#160;valittu</string>
+    <string name="hidden_app">Kaikki sovellukset</string>
+    <string name="hide_selected">Piilota valitut sovellukset</string>
+    <string name="more">Lisää</string>
     <!-- Swipe up indicator -->
+    <string name="pref_show_clock_weather_nothing">Älä näytä</string>
+    <string name="pref_show_clock_weather_clock_only">Näytä vain päivämäärä</string>
+    <string name="pref_show_clock_weather_weather_only">Näytä vain sää</string>
     <!-- Hide/Show search bars -->
+    <string name="num_three">Kolme</string>
+    <string name="num_four">Neljä</string>
+    <string name="num_five">Viisi</string>
+    <string name="num_six">Kuusi</string>
+    <string name="num_seven">Seitsemän</string>
+    <string-array name="grid_values">
+        <item>default</item>
+        <item>kolme</item>
+        <item>neljä</item>
+        <item>viisi</item>
+        <item>kuusi</item>
+        <item>seven</item>
+    </string-array>
 </resources>

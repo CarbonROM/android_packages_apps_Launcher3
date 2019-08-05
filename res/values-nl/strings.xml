@@ -273,5 +273,25 @@
     <!-- About -->
     <!-- Hidden app -->
     <!-- Swipe up indicator -->
+    <string name="pref_show_clock_weather_nothing">Niet weergeven</string>
+    <string name="pref_show_clock_weather_clock_only">Alleen datum weergeven</string>
+    <string name="pref_show_clock_weather_weather_only">Alleen weer tonen</string>
     <!-- Hide/Show search bars -->
+    <string name="num_default">Standaard</string>
+    <string name="num_three">Drie</string>
+    <string name="num_four">Vier</string>
+    <string name="num_five">Vijf</string>
+    <string name="num_six">Zes</string>
+    <string name="num_seven">Zeven</string>
+    <string-array name="grid_values">
+        <item>standaard</item>
+        <item>drie</item>
+        <item>vier</item>
+        <item>vijf</item>
+        <item>zes</item>
+        <item>zeven</item>
+    </string-array>
+    <string name="grid_category_title">Kolommen en rijen</string>
+    <string name="icon_shape_rounded_square">Afgerond vierkant</string>
+    <string name="action_edit">Bewerk</string>
 </resources>

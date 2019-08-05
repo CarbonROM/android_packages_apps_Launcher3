@@ -270,7 +270,14 @@
     <string name="msg_disable_suggestions_prompt">"關閉之後，應用程式清單頂端就不會顯示建議，而且用來產生這些建議的使用資料將永久清除。"</string>
     <string name="label_turn_off_suggestions">關閉</string>
     <!-- Preference categories -->
+    <string name="app_drawer_category_title">應用程式列表</string>
+    <string name="icon_category_title">應用程式圖示</string>
+    <string name="widget_category_title">小工具</string>
+    <string name="other_category_title">其他</string>
+    <string name="other_category_summary">其他設定</string>
     <!-- About -->
+    <string name="about_credits">特別感謝</string>
+    <string name="about_credits_ok">確定</string>
     <!-- Hidden app -->
     <!-- Swipe up indicator -->
     <!-- Hide/Show search bars -->
