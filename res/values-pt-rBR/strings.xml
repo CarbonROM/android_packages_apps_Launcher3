@@ -66,7 +66,9 @@
     <string name="notifications_header">Notificações</string>
     <!-- Drag and drop -->
     <!-- Message to tell the user to press and hold on a shortcut to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_shortcut_to_add">Toque &amp; segure para pegar um atalho.</string>
     <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
+    <string name="long_accessible_way_to_add_shortcut">Toque duas vezes em &amp; segure para pegar um atalho ou usar ações personalizadas.</string>
     <!-- Error message when user has filled a home screen -->
     <string name="out_of_space">Não há mais espaço nesta tela inicial.</string>
     <!-- Error message when user has filled the hotseat -->
@@ -100,6 +102,7 @@
     <!-- Permission description -->
     <string name="permdesc_write_settings">Permite à aplicação alterar as definições e os atalhos na Tela Principal.</string>
     <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+    <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3">%1$s</xliff:g> não tem permissão para fazer ligações telefônicas</string>
     <!-- Widgets: -->
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">Problema ao carregar o widget</string>
@@ -113,6 +116,10 @@
     <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label"><xliff:g id="App_NAME">%1$s</xliff:g> desativado</string>
     <!-- The format string for when an app has a notification dot (meaning it has associated notifications). -->
+    <plurals name="badged_app_label">
+        <item quantity="one"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g>, has <xliff:g id="notification_count" example="1">%2$d</xliff:g> notification</item>
+        <item quantity="other"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g>, has <xliff:g id="notification_count" example="3">%2$d</xliff:g> notifications</item>
+    </plurals>
     <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
     <string name="default_scroll_format">Página %1$d de %2$d</string>
     <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
@@ -138,11 +145,14 @@
     <!-- Text for wallpaper change button -->
     <string name="wallpaper_button_text">Papéis de Parede</string>
     <!-- Text for settings button -->
+    <string name="settings_button_text">Configurações iniciais</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Desativada pelo administrador</string>
     <!-- Strings for settings -->
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+    <string name="allow_rotation_title">Permitir rotação na Tela inicial</string>
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+    <string name="allow_rotation_desc">Quando o telefone é girado</string>
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
     <string name="icon_badging_title">Pontos de notificação</string>
     <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
@@ -156,12 +166,15 @@
     <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
     <string name="title_change_settings">Alterar configurações </string>
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
+    <string name="icon_badging_service_title">Mostrar pontos de notificação</string>
     <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
     <string name="auto_add_shortcuts_label">Adicionar ícone a tela principal</string>
     <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
+    <string name="auto_add_shortcuts_description">Para novos apps</string>
     <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
     <string name="icon_shape_override_label">Alterar forma do ícone</string>
     <!-- Subtext explaining that the icons will only be affected on the home screen. This text follows the actual icon action: Change icon shape, on Home screen [CHAR LIMIT=100] -->
+    <string name="icon_shape_override_label_location">na Tela inicial</string>
     <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
     <string name="icon_shape_system_default">Usar o padrão do sistema</string>
     <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
@@ -195,6 +208,7 @@
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
     <string name="widgets_list">Lista de widgets</string>
     <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
+    <string name="widgets_list_closed">Lista de widgets fechada</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">Adicionar a tela inicial</string>
@@ -241,6 +255,8 @@
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">Atalhos</string>
     <!-- Accessibility description when the context menu of a launcher icon that has notifications as well as shortcuts (providing quick access to app's actions). The "shortcuts" translation should be consistent with the one for action_deep_shortcut. [CHAR_LIMIT=50] -->
+    <string name="shortcuts_menu_with_notifications_description">Atalhos e notificações
+    </string>
     <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_dismiss_notification">Ignorar</string>
     <!-- Accessibility confirmation for notification being dismissed. -->
@@ -252,10 +268,14 @@
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. This is a label for a toggle to turn the work profile on and off. "Work profile" means a separate profile on a user's phone that's specifically for their work apps and managed by their company. "Work" is used as an adjective.-->
     <string name="work_profile_toggle_label">Perfil de trabalho</string>
     <!-- Title of an overlay in All Apps. This overlay is letting a user know about their work profile, which is managed by their employer. "Work apps" are apps in a user's work profile.-->
+    <string name="bottom_work_tab_user_education_title">Encontre apps de trabalho aqui</string>
     <!-- Text in an overlay in All Apps. This overlay is letting a user know about their work profile, which is managed by their employer.-->
+    <string name="bottom_work_tab_user_education_body">Cada aplicativo de trabalho tem um emblema e é mantido seguro pela sua organização. Mova apps para sua Tela inicial para acesso mais fácil.</string>
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. It describes the label of a toggle, "Work profile," as being managed by the user's employer.
     "Organization" is used to represent a variety of businesses, non-profits, and educational institutions).-->
+    <string name="work_mode_on_label">Gerenciado pela sua organização</string>
     <!-- This string appears under a the label of a toggle in the work profile tab on a user's phone. It describes the status of the toggle, "Work profile," when it's turned off. "Work profile" means a separate profile on a user's phone that's speficially for their work apps and is managed by their company.-->
+    <string name="work_mode_off_label">Notificações e apps desativados</string>
     <string name="bottom_work_tab_user_education_close_button">Fechar</string>
     <string name="bottom_work_tab_user_education_closed">Fechado</string>
 </resources>

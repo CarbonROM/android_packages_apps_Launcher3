@@ -21,18 +21,31 @@
     <string name="settings_title">설정</string>
     <!-- Categories -->
     <string name="home_category_title">홈 화면</string>
-    <string name="home_category_summary">홈화면의 아이콘 배열, 앱 이름 표시 여부, 독을 설정합니다.</string>
+    <string name="home_category_summary">아이콘 배열, 앱 이름 표시 여부, 독 설정</string>
     <string name="icons_category_title">아이콘</string>
-    <string name="icons_category_summary">아이콘 팩, 아이콘 모양 및 크기, 알림 표시 점을 설정합니다.</string>
+    <string name="icons_category_summary">아이콘 팩, 모양 및 크기, 알림 표시 점</string>
     <string name="app_drawer_category_title">앱 서랍</string>
-    <string name="app_drawer_category_summary">앱 서랍 내의 앱을 숨기거나 앱 이름 표시 여부를 설정합니다.</string>
+    <string name="app_drawer_category_summary">앱을 숨기거나 앱 이름 표시 여부를 설정</string>
     <string name="recents_category_title">최근 실행 목록</string>
     <string name="gestures_category_title">제스처</string>
+    <string name="gestures_category_summary">두번 탭, 알림 및 모두 지우기 제스처</string>
     <!-- Sub categories -->
+    <string name="home_grid_title">홈 화면 배열</string>
+    <string name="icon_layout_title">아이콘 형식</string>
     <!-- Icon packs -->
     <string name="icon_pack">아이콘 팩</string>
     <string name="icon_pack_none">기본값</string>
+    <string name="edit_drop_target_label">편집</string>
+    <string name="edit_hint">앱 이름</string>
+    <string name="reset_icon">초기화</string>
+    <string name="all_icons">모든 아이콘</string>
+    <string name="similar_icons">비슷한 아이콘</string>
+    <string name="ok">확인</string>
+    <string name="loading">로드하는 중, 잠시만 기다려주세요</string>
+    <string name="icon_chooser">아이콘 선택</string>
+    <string name="icon_search">아이콘 검색</string>
     <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">사용할 수 있는 아이콘 팩이 없습니다.</string>
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">아이콘 모양</string>
     <!-- Icon size -->
@@ -40,7 +53,7 @@
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">최근 실행 보기에서 모두 지우기</string>
     <string name="allow_swipe_down_clearall_desc">최근 실행 보기에서 아래로 문질러 사용했던 앱을 모두 지웁니다.</string>
-    <string name="pref_homescreen_dt_gestures_title">두 번 두드리기 제스처</string>
+    <string name="pref_homescreen_dt_gestures_title">두 번 탭 제스처</string>
     <string name="pref_homescreen_dt_gestures_none">선택 안함</string>
     <string name="pref_homescreen_dt_gestures_sleep">화면 끄기</string>
     <string name="pref_homescreen_dt_gestures_torch">손전등</string>
@@ -52,16 +65,27 @@
     <string name="google_feed_title">Google 앱 및 검색 활성화</string>
     <!-- Grid -->
     <string name="num_default">기본값</string>
+    <string name="number_of_columns_title">가로</string>
+    <string name="number_of_rows_title">세로</string>
+    <string name="number_of_hotseat_title">독 아이콘 개수</string>
+    <string name="state_loading">적용중\u2026</string>
     <!-- Hidden apps -->
     <string name="hide_app">앱 감추기</string>
     <string name="hide_app_sum">앱 서랍에서 앱을 보이지 않게 합니다.</string>
+    <string name="hide_app_selected">&#160;선택됨</string>
     <string name="hidden_app">모든 앱</string>
     <string name="hide_selected">선택된 앱 숨기기</string>
     <!-- Show labels on icon -->
+    <string name="app_show_label_title">앱 이름</string>
     <string name="desktop_show_label_summary">홈 화면에서 앱 이름을 보여줍니다.</string>
     <string name="allapps_show_label_summary">앱 서랍에서 앱 이름을 보여줍니다.</string>
     <!-- QSB -->
+    <string name="label_search">검색</string>
+    <string name="label_voice_search">음성 검색</string>
     <!-- Lock desktop -->
+    <string name="lock_desktop_title">홈 화면 잠그기</string>
+    <string name="lock_desktop_summary">홈 화면이 변경되는 것을 방지합니다.</string>
+    <string name="lock_desktop_toast">홈 화면이 잠겼습니다. 진행하려면 잠금을 해제하세요.</string>
     <!-- Recents corned -->
     <string name="custom_recents_corners_type_default">기본값</string>
 </resources>

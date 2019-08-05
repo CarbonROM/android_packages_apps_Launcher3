@@ -37,7 +37,18 @@
     <string name="icon_pack">Simge paketi</string>
     <string name="icon_pack_summary">Uygulama simgelerinizin görünümünü değiştirin</string>
     <string name="icon_pack_none">Varsayılan</string>
+    <string name="edit_drop_target_label">Düzenle</string>
+    <string name="edit_hint">Simge adı</string>
+    <string name="reset_icon">Sıfırla</string>
+    <string name="all_icons">Tüm simgeler</string>
+    <string name="similar_icons">Benzer simgeler</string>
+    <string name="ok">Tamam</string>
+    <string name="icon_label">Etiket</string>
+    <string name="loading">Yükleniyor, lütfen bekleyin</string>
+    <string name="icon_chooser">Simge seçici</string>
+    <string name="icon_search">Simgeleri ara</string>
     <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">Simge paketleri mevcut değil</string>
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">Simge şekli</string>
     <string name="icon_shape_rounded_square">Yuvarlak kare</string>

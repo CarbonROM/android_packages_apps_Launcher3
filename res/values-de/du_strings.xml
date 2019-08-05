@@ -37,7 +37,18 @@
     <string name="icon_pack">Symbol-Paket</string>
     <string name="icon_pack_summary">Ändern Sie das Aussehen Ihrer App-Symbole</string>
     <string name="icon_pack_none">Standard</string>
+    <string name="edit_drop_target_label">Bearbeiten</string>
+    <string name="edit_hint">Symbolname</string>
+    <string name="reset_icon">Zurücksetzen</string>
+    <string name="all_icons">Alle Symbole</string>
+    <string name="similar_icons">Ähnliche Symbole</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Beschriftung</string>
+    <string name="loading">Lädt, bitte warten</string>
+    <string name="icon_chooser">Symbolauswahl</string>
+    <string name="icon_search">Nach Symbolen suchen</string>
     <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">Keine Symbolpakete verfügbar</string>
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">Symbolform</string>
     <string name="icon_shape_rounded_square">Abgerundetes Quadrat</string>

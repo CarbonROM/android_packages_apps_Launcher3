@@ -37,7 +37,18 @@
     <string name="icon_pack">Набор иконок</string>
     <string name="icon_pack_summary">Изменить внешний вид значков приложений</string>
     <string name="icon_pack_none">По умолчанию</string>
+    <string name="edit_drop_target_label">Редактировать</string>
+    <string name="edit_hint">Название иконки</string>
+    <string name="reset_icon">Сбросить</string>
+    <string name="all_icons">Все иконки</string>
+    <string name="similar_icons">Похожие иконки</string>
+    <string name="ok">Ок</string>
+    <string name="icon_label">Ярлык</string>
+    <string name="loading">Загрузка, пожалуйста, подождите</string>
+    <string name="icon_chooser">Выбор иконок</string>
+    <string name="icon_search">Найти иконки</string>
     <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">Нет доступных наборов иконок</string>
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">Форма иконки</string>
     <string name="icon_shape_rounded_square">Округленный квадрат</string>

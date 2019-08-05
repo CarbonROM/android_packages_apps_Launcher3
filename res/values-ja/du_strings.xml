@@ -37,7 +37,18 @@
     <string name="icon_pack">アイコンパック</string>
     <string name="icon_pack_summary">アプリアイコンの外観を変更する</string>
     <string name="icon_pack_none">既定</string>
+    <string name="edit_drop_target_label">編集</string>
+    <string name="edit_hint">アイコン名</string>
+    <string name="reset_icon">リセット</string>
+    <string name="all_icons">全てのアイコン</string>
+    <string name="similar_icons">類似のアイコン</string>
+    <string name="ok">OK</string>
+    <string name="icon_label">ラベル</string>
+    <string name="loading">読み込み中です。お待ち下さい。</string>
+    <string name="icon_chooser">アイコンの選択</string>
+    <string name="icon_search">アイコンを検索</string>
     <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">利用可能なアイコンパックがありません</string>
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">アイコンの形状</string>
     <string name="icon_shape_rounded_square">角が丸い正方形</string>
@@ -54,7 +65,7 @@
     <string name="pref_homescreen_dt_gestures_google">Google 検索</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Google 検索がインストールされていません</string>
     <string name="pref_notifications_gesture_title">通知ジェスチャー</string>
-    <string name="pref_notifications_gesture_summary">ホーム画面で真下にスワイプしてクイック設定パネルを表示</string>
+    <string name="pref_notifications_gesture_summary">ホーム画面で真下にスワイプしてクイック設定パネルを表示する</string>
     <!-- Google Feed -->
     <string name="google_feed_title">Google アプリと検索の有効化</string>
     <string name="google_feed_summary">ホーム画面から左に移動して Google アプリを表示する</string>
@@ -71,7 +82,7 @@
     <string name="hidden_app">全てのアプリ</string>
     <string name="hide_selected">選択したアプリを非表示</string>
     <string name="more">詳細</string>
-    <string name="reset_hidden_apps">全て初期化</string>
+    <string name="reset_hidden_apps">全てリセット</string>
     <string name="reset_hidden_apps_done">非表示のアプリは現在利用できません</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">アプリラベル</string>

@@ -26,6 +26,7 @@
     <string name="icons_category_summary">Réglages de l\'apparence des icônes et plus</string>
     <string name="app_drawer_category_title">Tiroir d\'applications</string>
     <string name="app_drawer_category_summary">Réglages du tiroir d\'applications</string>
+    <string name="recents_category_title">Récents</string>
     <string name="gestures_category_title">Gestes</string>
     <string name="gestures_category_summary">Réglages pour une meilleur expérience</string>
     <!-- Sub categories -->
@@ -35,7 +36,11 @@
     <string name="icon_pack">Paquet d\'icônes</string>
     <string name="icon_pack_summary">Modifier l\'apparence des icônes d\'applications</string>
     <string name="icon_pack_none">Par défaut</string>
+    <string name="similar_icons">Icônes similaires</string>
+    <string name="ok">Ok</string>
+    <string name="loading">Chargement, veuillez patienter</string>
     <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">Pas de pack d\'icône disponible</string>
     <!-- Icon shape -->
     <string name="icon_shape_override_label_custom">Apparence des icônes</string>
     <string name="icon_shape_rounded_square">Carré arrondi</string>
