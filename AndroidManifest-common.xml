@@ -165,6 +165,7 @@
         <provider
             android:name="com.android.launcher3.graphics.GridOptionsProvider"
             android:authorities="${packageName}.grid_control"
+            android:enabled="true"
             android:exported="true"
             android:writePermission="${packageName}.permission.WRITE_SETTINGS"
             android:readPermission="${packageName}.permission.READ_SETTINGS" />
