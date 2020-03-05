@@ -19,261 +19,142 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General -->
     <!-- Application name -->
-    <string name="app_name">Launcher3</string>
     <!-- Default folder name -->
     <!-- Work folder name -->
-    <string name="work_folder_name">Arbete</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-    <string name="activity_not_found">Appen är inte installerad.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-    <string name="activity_not_available">Appen är inte tillgänglig</string>
     <!-- SafeMode shortcut error string -->
-    <string name="safemode_shortcut_error">Den hämtade appen inaktiverades i säkert läge</string>
     <!-- SafeMode widget error string -->
-    <string name="safemode_widget_error">Widgets är inaktiverade i felsäkert läge</string>
     <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-    <string name="shortcut_not_available">Genvägen är inte tillgänglig</string>
     <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-    <string name="home_screen">Startskärm</string>
     <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
-    <string name="custom_actions">Anpassade åtgärder</string>
     <!-- Widgets -->
     <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-    <string name="long_press_widget_to_add">Tryck länge om du vill flytta en widget.</string>
     <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-    <string name="long_accessible_way_to_add">Tryck två gånger och håll kvar om du vill ta upp en widget eller använda anpassade åtgärder.</string>
     <!-- The format string for the dimensions of a widget in the drawer -->
     <!-- There is a special version of this format string for Farsi -->
-    <string name="widget_dims_format">%1$d × %2$d</string>
     <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
-    <string name="widget_accessible_dims_format">%1$d bred gånger %2$d hög</string>
     <!-- Message to tell the user to press and hold a widget/icon to add it  -->
-    <string name="add_item_request_drag_hint">Placera manuellt genom att trycka länge</string>
     <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
-    <string name="place_automatically">Lägg till automatiskt</string>
     <!-- All Apps -->
     <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-    <string name="all_apps_search_bar_hint">Sök efter appar</string>
     <!-- Loading apps text. [CHAR_LIMIT=50] -->
-    <string name="all_apps_loading_message">Läser in appar …</string>
     <!-- No-search-results text. [CHAR_LIMIT=50] -->
-    <string name="all_apps_no_search_results">Inga appar som matchar <xliff:g id="QUERY">%1$s</xliff:g> hittades</string>
     <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-    <string name="all_apps_search_market_message">Sök efter fler appar</string>
     <!-- Popup items -->
     <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
-    <string name="notifications_header">Aviseringar</string>
     <!-- Drag and drop -->
     <!-- Message to tell the user to press and hold on a shortcut to add it [CHAR_LIMIT=50] -->
-    <string name="long_press_shortcut_to_add">Tryck länge om du vill ta upp en genväg.</string>
     <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
-    <string name="long_accessible_way_to_add_shortcut">Tryck snabbt två gånger och håll kvar om du vill ta upp en genväg eller använda anpassade åtgärder.</string>
     <!-- Error message when user has filled a home screen -->
-    <string name="out_of_space">Det finns inte plats för mer på den här startskärmen.</string>
     <!-- Error message when user has filled the hotseat -->
-    <string name="hotseat_out_of_space">Favoritfältet är fullt</string>
     <!-- All applications label -->
-    <string name="all_apps_button_label">Applista</string>
-    <string name="all_apps_button_personal_label">Listan Personliga appar</string>
-    <string name="all_apps_button_work_label">Listan Jobbappar</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-    <string name="all_apps_home_button_label">Startskärm</string>
+    <string name="all_apps_home_button_label">حانه</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
-    <string name="remove_drop_target_label">Ta bort</string>
+    <string name="remove_drop_target_label">پاک کردن</string>
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-    <string name="uninstall_drop_target_label">Avinstallera</string>
+    <string name="uninstall_drop_target_label">لغو نصب</string>
     <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-    <string name="app_info_drop_target_label">Info om appen</string>
     <!-- Label for install drop target. [CHAR_LIMIT=20] -->
-    <string name="install_drop_target_label">Installera</string>
     <!-- Permissions: -->
     <!-- Permission short label -->
-    <string name="permlab_install_shortcut">installera genvägar</string>
     <!-- Permission description -->
-    <string name="permdesc_install_shortcut">Tillåter att en app lägger till genvägar utan åtgärd från användaren.</string>
     <!-- Permission short label -->
-    <string name="permlab_read_settings">läsa inställningar och genvägar för startsidan</string>
     <!-- Permission description -->
-    <string name="permdesc_read_settings">Tillåter att appen läser inställningar och genvägar på startsidan.</string>
     <!-- Permission short label -->
-    <string name="permlab_write_settings">skriva inställningar och genvägar för startsidan</string>
     <!-- Permission description -->
-    <string name="permdesc_write_settings">Tillåter att appen ändrar inställningar och genvägar på startsidan.</string>
     <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-    <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> har inte behörighet att ringa samtal</string>
     <!-- Widgets: -->
     <!-- Text to show user in place of a gadget when we can't display it properly -->
-    <string name="gadget_error_text">Det gick inte att läsa in widgeten</string>
     <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-    <string name="gadget_setup_text">Konfiguration</string>
+    <string name="gadget_setup_text">نصب</string>
     <!-- Text to inform the user that they can't uninstall a system application -->
-    <string name="uninstall_system_app_text">Det här är en systemapp som inte kan avinstalleras.</string>
     <!-- Default folder title -->
-    <string name="folder_hint_text">Namnlös mapp</string>
+    <string name="folder_hint_text">پوشه بدون نام</string>
     <!-- Accessibility -->
     <!-- The format string for when an app is temporarily disabled. -->
-    <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> har inaktiverats</string>
     <!-- The format string for when an app has a notification dot (meaning it has associated notifications). -->
-    <plurals name="badged_app_label">
-        <item quantity="one"><xliff:g id="APP_NAME_0">%1$s</xliff:g> har <xliff:g id="NOTIFICATION_COUNT_1">%2$d</xliff:g> avisering</item>
-        <item quantity="other"><xliff:g id="APP_NAME_2">%1$s</xliff:g> har <xliff:g id="NOTIFICATION_COUNT_3">%2$d</xliff:g> aviseringar</item>
-    </plurals>
     <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
-    <string name="default_scroll_format">Sidan %1$d av %2$d</string>
     <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-    <string name="workspace_scroll_format">Startskärmen %1$d av %2$d</string>
     <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-    <string name="workspace_new_page">Ny sida på startskärmen</string>
     <!-- Folder accessibility -->
     <!-- The format string for when a folder is opened, speaks the dimensions -->
-    <string name="folder_opened">Mappen är öppen, <xliff:g id="WIDTH">%1$d</xliff:g> gånger <xliff:g id="HEIGHT">%2$d</xliff:g></string>
     <!-- Instruction that clicking outside will close folder -->
-    <string name="folder_tap_to_close">Tryck för att stänga mappen</string>
     <!-- Instruction that clicking outside will commit folder rename -->
-    <string name="folder_tap_to_rename">Tryck för att spara namnändringen</string>
     <!-- Indication that folder closed -->
-    <string name="folder_closed">Mappen är stängd</string>
     <!-- Folder renamed format -->
-    <string name="folder_renamed">Mappen har bytt namn till <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Folder name format -->
-    <string name="folder_name_format">Mapp: <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Strings for the customization mode -->
     <!-- Text for widget add button -->
-    <string name="widget_button_text">Widgetar</string>
     <!-- Text for wallpaper change button -->
-    <string name="wallpaper_button_text">Bakgrunder</string>
     <!-- Text for settings button -->
-    <string name="settings_button_text">Startinställningar</string>
     <!-- Message shown when a feature is disabled by the administrator -->
-    <string name="msg_disabled_by_admin">Inaktiverat av administratören</string>
     <!-- Strings for settings -->
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <string name="allow_rotation_title">Tillåt rotering av startskärmen</string>
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-    <string name="allow_rotation_desc">När mobilen vrids</string>
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
-    <string name="icon_badging_title">Aviseringsprickar</string>
     <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
-    <string name="icon_badging_desc_on">På</string>
     <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
-    <string name="icon_badging_desc_off">Av</string>
     <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
-    <string name="title_missing_notification_access">Åtkomst till aviseringar krävs</string>
     <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-    <string name="msg_missing_notification_access">Aktivera appaviseringar för <xliff:g id="NAME">%1$s</xliff:g> om du vill att aviseringsprickar ska visas</string>
     <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-    <string name="title_change_settings">Ändra inställningar</string>
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
-    <string name="icon_badging_service_title">Visa aviseringsprickar</string>
     <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-    <string name="auto_add_shortcuts_label">Lägg till ikonen på startskärmen</string>
     <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-    <string name="auto_add_shortcuts_description">För nya appar</string>
     <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-    <string name="icon_shape_override_label">Ändra form på ikoner</string>
     <!-- Subtext explaining that the icons will only be affected on the home screen. This text follows the actual icon action: Change icon shape, on Home screen [CHAR LIMIT=100] -->
-    <string name="icon_shape_override_label_location">på startskärmen</string>
     <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-    <string name="icon_shape_system_default">Använd systemstandard</string>
     <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-    <string name="icon_shape_square">Kvadrat</string>
     <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
-    <string name="icon_shape_squircle">Kvirkel</string>
     <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-    <string name="icon_shape_circle">Cirkel</string>
     <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-    <string name="icon_shape_teardrop">Droppe</string>
     <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-    <string name="icon_shape_override_progress">Ikonernas form ändras</string>
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-    <string name="package_state_unknown">Okänt</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-    <string name="abandoned_clean_this">Ta bort</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-    <string name="abandoned_search">Sök</string>
     <!-- Title for abandoned promise dialog. -->
-    <string name="abandoned_promises_title">Appen är inte installerad</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-    <string name="abandoned_promise_explanation">Appen för den här ikonen har inte installerats. Du kan ta bort den eller söka efter appen och installera den manuellt.</string>
     <!-- Title for an app which is being downloaded. -->
-    <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> laddas ned, <xliff:g id="PROGRESS">%2$s</xliff:g> klart</string>
     <!-- Title for an app whose download has been started. -->
-    <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> väntar på installation</string>
     <!-- Strings for widgets & more in the popup container/bottom sheet -->
     <!-- Title for a bottom sheet that shows widgets for a particular app -->
-    <string name="widgets_bottom_sheet_title"><xliff:g id="NAME">%1$s</xliff:g> widgetar</string>
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
-    <string name="widgets_list">Widgetlista</string>
     <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
-    <string name="widgets_list_closed">Widgetslistan har stängts</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_add_to_workspace">Lägg till på startskärmen</string>
     <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-    <string name="action_move_here">Flytta objekt hit</string>
     <!-- Accessibility confirmation for item added to workspace. -->
-    <string name="item_added_to_workspace">Objektet har lagts till på startskärmen</string>
     <!-- Accessibility confirmation for item removed. -->
-    <string name="item_removed">Objektet har tagits bort</string>
     <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move">Flytta objekt</string>
     <!-- Accessibility description to move item to empty cell. -->
-    <string name="move_to_empty_cell">Flytta till rad <xliff:g id="NUMBER_0">%1$s</xliff:g>, kolumn <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
     <!-- Accessibility description to move item inside a folder. -->
-    <string name="move_to_position">Flytta till plats <xliff:g id="NUMBER">%1$s</xliff:g></string>
     <!-- Accessibility description to move item to the hotseat. -->
-    <string name="move_to_hotseat_position">Flytta till favoritplats <xliff:g id="NUMBER">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for item move. -->
-    <string name="item_moved">Objektet har flyttats</string>
     <!-- Accessibility description to move item into an existing folder. -->
-    <string name="add_to_folder">Lägg till i mapp: <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Accessibility description to move item into an existing folder containing an app. -->
-    <string name="add_to_folder_with_app">Lägg till i mappen med <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for item added to folder. -->
-    <string name="added_to_folder">Objektet har lagts till i mappen</string>
     <!-- Accessibility description to create folder with another item. -->
-    <string name="create_folder_with">Skapa mapp med: <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for folder created. -->
-    <string name="folder_created">Mappen har skapats</string>
     <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move_to_workspace">Flytta till startskärmen</string>
     <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-    <string name="action_resize">Ändra storlek</string>
     <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_increase_width">Öka bredden</string>
     <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_increase_height">Öka höjden</string>
     <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_decrease_width">Minska bredden</string>
     <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_decrease_height">Minska höjden</string>
     <!-- Accessibility confirmation for widget resize. -->
-    <string name="widget_resized">Widgetens storlek har ändrats till: bredd <xliff:g id="NUMBER_0">%1$s</xliff:g>, höjd <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-    <string name="action_deep_shortcut">Genvägar</string>
     <!-- Accessibility description when the context menu of a launcher icon that has notifications as well as shortcuts (providing quick access to app's actions). The "shortcuts" translation should be consistent with the one for action_deep_shortcut. [CHAR_LIMIT=50] -->
-    <string name="shortcuts_menu_with_notifications_description">Genvägar och aviseringar</string>
     <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-    <string name="action_dismiss_notification">Ignorera</string>
     <!-- Accessibility confirmation for notification being dismissed. -->
-    <string name="notification_dismissed">Aviseringen togs bort</string>
     <!-- Label of tab to indicate personal apps -->
-    <string name="all_apps_personal_tab">Privat</string>
     <!-- Label of tab to indicate work apps -->
-    <string name="all_apps_work_tab">Arbete</string>
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. This is a label for a toggle to turn the work profile on and off. "Work profile" means a separate profile on a user's phone that's specifically for their work apps and managed by their company. "Work" is used as an adjective.-->
-    <string name="work_profile_toggle_label">Jobbprofil</string>
     <!-- Title of an overlay in All Apps. This overlay is letting a user know about their work profile, which is managed by their employer. "Work apps" are apps in a user's work profile.-->
-    <string name="bottom_work_tab_user_education_title">Här hittar du jobbappar</string>
     <!-- Text in an overlay in All Apps. This overlay is letting a user know about their work profile, which is managed by their employer.-->
-    <string name="bottom_work_tab_user_education_body">Alla jobbappar har ett märke och organisationen ser till att de är skyddade. Flytta apparna till startskärmen så kommer du åt dem lättare.</string>
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. It describes the label of a toggle, "Work profile," as being managed by the user's employer.
     "Organization" is used to represent a variety of businesses, non-profits, and educational institutions).-->
-    <string name="work_mode_on_label">Hanteras av organisationen</string>
     <!-- This string appears under a the label of a toggle in the work profile tab on a user's phone. It describes the status of the toggle, "Work profile," when it's turned off. "Work profile" means a separate profile on a user's phone that's speficially for their work apps and is managed by their company.-->
-    <string name="work_mode_off_label">Aviseringar och appar är inaktiverade</string>
-    <string name="bottom_work_tab_user_education_close_button">Stäng</string>
-    <string name="bottom_work_tab_user_education_closed">Stängd</string>
 </resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2017, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="settings_title">Sätted</string>
+    <!-- Categories -->
+    <string name="home_category_title">Avaekraan</string>
+    <string name="home_category_summary">Võre paigutus, rakenduste sildid ja dokk</string>
+    <string name="icons_category_title">Ikoonid</string>
+    <string name="icons_category_summary">Ikoonipakk, kuju, suurus ja märguandepunktid</string>
+    <string name="app_drawer_category_title">Rakenduse list</string>
+    <string name="app_drawer_category_summary">Rakenduste ja rakenduste sahtlite siltide peitmine</string>
+    <string name="recents_category_title">Hiljutised</string>
+    <string name="recents_category_summary">Saate kohandada oma laekumiste kaarti</string>
+    <string name="gestures_category_title">Viiped</string>
+    <string name="gestures_category_summary">Topeltpuudutus, märguanded ja puhastusžestid</string>
+    <!-- Sub categories -->
+    <string name="home_grid_title">Võre paigutus</string>
+    <string name="icon_layout_title">Ikooni paigutus</string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Ikoonipakett</string>
+    <string name="icon_pack_summary">Rakenduse ikoonide ilme muutmine</string>
+    <string name="icon_pack_none">Vaikimisi</string>
+    <string name="edit_drop_target_label">Muuda</string>
+    <string name="edit_hint">Ikooni nimi</string>
+    <string name="reset_icon">Lähtesta</string>
+    <string name="all_icons">Kõik ikoonid</string>
+    <string name="similar_icons">Sarnased ikoonid</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Silt</string>
+    <string name="loading">Laadimine. Palun oota</string>
+    <string name="icon_chooser">Ikoonide valik</string>
+    <string name="icon_search">Otsige ikoone</string>
+    <!-- Toast message for alerting users that no icon packs are available. -->
+    <string name="msg_no_icon_pack">Ikoonipakke pole saadaval</string>
+    <!-- Icon shape -->
+    <string name="icon_shape_override_label_custom">Ikooni kuju</string>
+    <string name="icon_shape_rounded_square">Ümardatud nurkadega ruut</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Ikoonisuurus</string>
+    <!-- Gestures -->
+    <string name="allow_swipe_down_clearall_title">Kustuta kõik laekumiste vaatest</string>
+    <string name="allow_swipe_down_clearall_desc">Kõigi rakenduste tühjendamiseks libistage viimaste kuva vertikaalselt allapoole</string>
+    <string name="pref_homescreen_dt_gestures_title">Topeltpuudutuse žest</string>
+    <string name="pref_homescreen_dt_gestures_summary">Valige avaekraanil topeltkoputuse žest</string>
+    <string name="pref_homescreen_dt_gestures_none">Pole</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Ekraan kinni</string>
+    <string name="pref_homescreen_dt_gestures_torch">Taskulamp</string>
+    <string name="pref_homescreen_dt_gestures_google">Google otsing</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google\'i otsing pole installitud</string>
+    <string name="pref_notifications_gesture_title">Märguannete žest</string>
+    <string name="pref_notifications_gesture_summary">QS-paneeli kuvamiseks libistage avaekraanil vertikaalselt allapoole</string>
+    <!-- Google Feed -->
+    <string name="google_feed_title">Google\'i rakenduse ja otsingu lubamine</string>
+    <string name="google_feed_summary">Kuvage Google\'i rakendus avaekraanil paremale libistades ja kasutage selle otsimootorit kiirete kohtade jaoks</string>
+    <!-- Grid -->
+    <string name="num_default">Vaikimisi</string>
+    <string name="number_of_columns_title">Veergude arv</string>
+    <string name="number_of_rows_title">Ridade arv</string>
+    <string name="number_of_hotseat_title">Dokiikoonide arv</string>
+    <string name="state_loading">Rakendan\u2026</string>
+    <!-- Hidden apps -->
+    <string name="hide_app">Peida rakendusi</string>
+    <string name="hide_app_sum">Peida rakendused rakendustesahtlist</string>
+    <string name="hide_app_selected">&#160;valitud</string>
+    <string name="hidden_app">Kõik rakendused</string>
+    <string name="hide_selected">Peida valitud rakendus(ed)</string>
+    <string name="more">Rohkem</string>
+    <string name="reset_hidden_apps">Lähtesta kõik</string>
+    <string name="reset_hidden_apps_done">Nüüd on saadaval peidetud rakendused</string>
+    <!-- Show labels on icon -->
+    <string name="app_show_label_title">Rakenduse sildid</string>
+    <string name="desktop_show_label_summary">Kuvage avaekraanil rakenduste silte</string>
+    <string name="allapps_show_label_summary">Rakenduste siltide kuvamine rakenduste sahtlis</string>
+    <!-- QSB -->
+    <string name="hotseat_qsb_preferences">Eelistused</string>
+    <string name="label_search">Otsi</string>
+    <string name="label_voice_search">Häälotsing</string>
+    <!-- Lock desktop -->
+    <string name="lock_desktop_title">Lukusta töölaud</string>
+    <string name="lock_desktop_summary">Vältige avaekraani muutmist</string>
+    <string name="lock_desktop_toast">Töölaud on lukus. Jätkamiseks avage see.</string>
+    <!-- Recents corned -->
+    <string name="custom_recents_corners_switch_title">Kasutage hiljuti nurkade ümardamiseks kohandatud väärtust</string>
+    <string name="custom_recents_corners_switch_summary">Kui see on keelatud, kasutab see süsteemi/teema pakutavat. Uue väärtuse rakendamiseks minge majja pärast valiku valimist.</string>
+    <string name="custom_recents_corners_type_title">Individuaalne ümarus viimastel</string>
+    <string name="custom_recents_corners_type_default">Vaikimisi</string>
+    <string name="custom_recents_corners_type_card">Ümar kaart</string>
+    <string name="custom_recents_corners_type_op">OP stiil</string>
+</resources>
