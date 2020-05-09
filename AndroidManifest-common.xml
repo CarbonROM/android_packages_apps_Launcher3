@@ -173,7 +173,8 @@
             android:name="com.aosp.launcher.AospSettings"
             android:label="@string/settings_button_text"
             android:theme="@style/HomeSettingsTheme"
-            android:autoRemoveFromRecents="true">
+            android:autoRemoveFromRecents="true"
+            android:parentActivityName="com.aosp.launcher.AospLauncher">
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
                 <category android:name="android.intent.category.DEFAULT" />
