@@ -16,15 +16,10 @@
 package com.aosp.launcher;
 
 import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherCallbacks;
 
 public class AospLauncher extends Launcher {
 
     public AospLauncher() {
         setLauncherCallbacks(new AospLauncherCallbacks(this));
-    }
-
-    public LauncherCallbacks getLauncherCallbacks() {
-        return mLauncherCallbacks;
     }
 }
