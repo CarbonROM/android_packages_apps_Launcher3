@@ -118,8 +118,6 @@ public class SettingsActivity extends Activity
                 c.getPackageManager().setComponentEnabledSetting(cn, newValue,
                         PackageManager.DONT_KILL_APP);
             }
-        } else if (Utilities.SHOW_WORKSPACE_GRADIENT.equals(key) || Utilities.SHOW_HOTSEAT_GRADIENT.equals(key)) {
-            LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         }
     }
 
