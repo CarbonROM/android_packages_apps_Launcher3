@@ -270,4 +270,6 @@
     <string name="bottom_work_tab_user_education_closed">Fechado</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Falhou: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Pacote de ícones</string>
 </resources>

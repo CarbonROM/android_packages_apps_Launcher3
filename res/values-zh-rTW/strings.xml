@@ -269,4 +269,6 @@
     <string name="bottom_work_tab_user_education_closed">已關閉</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">失敗：<xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">圖示套件</string>
 </resources>

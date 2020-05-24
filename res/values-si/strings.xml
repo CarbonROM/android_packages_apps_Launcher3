@@ -154,4 +154,5 @@
     <!-- This string appears under a the label of a toggle in the work profile tab on a user's phone. It describes the status of the toggle, "Work profile," when it's turned off. "Work profile" means a separate profile on a user's phone that's speficially for their work apps and is managed by their company.-->
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">අසාර්ථකයි: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
 </resources>

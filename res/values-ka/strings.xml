@@ -270,4 +270,5 @@
     <string name="bottom_work_tab_user_education_closed">დახურული</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">ვერ მოხერხდა: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
 </resources>
