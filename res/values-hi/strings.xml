@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General -->
+    <skip></skip>
     <!-- Application name -->
     <string name="app_name">Launcher3</string>
     <!-- Work folder name -->
@@ -69,6 +70,7 @@
     <string name="long_press_shortcut_to_add">शॉर्टकट चुनने के लिए दबाकर रखें.</string>
     <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
     <string name="long_accessible_way_to_add_shortcut">शॉर्टकट चुनने या पसंद के मुताबिक कार्रवाई करने के लिए दो बार टैप करें और कुछ देर दबाए रखें.</string>
+    <skip></skip>
     <!-- Error message when user has filled a home screen -->
     <string name="out_of_space">इस होम स्‍क्रीन पर स्थान शेष नहीं है.</string>
     <!-- Error message when user has filled the hotseat -->
@@ -92,6 +94,7 @@
     <string name="install_drop_target_label">इंस्‍टॉल करें</string>
     <!-- Label for install dismiss prediction. -->
     <!-- Permissions: -->
+    <skip></skip>
     <!-- Permission short label -->
     <string name="permlab_install_shortcut">शॉर्टकट इंस्‍टॉल करें</string>
     <!-- Permission description -->
@@ -107,6 +110,7 @@
     <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> को फ़ोन कॉल करने की अनुमति नहीं है</string>
     <!-- Widgets: -->
+    <skip></skip>
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">विजेट लोड करने में समस्‍या</string>
     <!-- Text to show user in place of a gadget when it is not yet initialized. -->
@@ -123,6 +127,7 @@
         <item quantity="one"><xliff:g id="APP_NAME_2">%1$s</xliff:g> की <xliff:g id="NOTIFICATION_COUNT_3">%2$d</xliff:g> सूचनाएं हैं</item>
         <item quantity="other"><xliff:g id="APP_NAME_2">%1$s</xliff:g> की <xliff:g id="NOTIFICATION_COUNT_3">%2$d</xliff:g> सूचनाएं हैं</item>
     </plurals>
+    <skip></skip>
     <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
     <string name="default_scroll_format">पेज %2$d में से %1$d</string>
     <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
@@ -195,7 +200,9 @@
     <!-- Title for a bottom sheet that shows widgets for a particular app -->
     <string name="widgets_bottom_sheet_title"><xliff:g id="NAME">%1$s</xliff:g> विजेट</string>
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
+    <string name="widgets_list">Widgets list</string>
     <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
+    <string name="widgets_list_closed">Widgets list closed</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">होम स्‍क्रीन में जोड़ें</string>
@@ -268,4 +275,7 @@
     <string name="bottom_work_tab_user_education_closed">बंद कर दिया गया</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">पूरा नहीं हुआ: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">आइकन पैक</string>
+    <string name="icon_pack_summary">Select a custom icon pack</string>
 </resources>
