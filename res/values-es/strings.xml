@@ -270,4 +270,7 @@
     <string name="bottom_work_tab_user_education_closed">Cerrada</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Se ha producido un error: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Paquete de iconos</string>
+    <string name="icon_pack_summary">Seleccione un paquete de iconos personalizado</string>
 </resources>
