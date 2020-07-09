@@ -272,4 +272,7 @@
     <string name="bottom_work_tab_user_education_closed">Закрыта</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Не удалось выполнить действие (<xliff:g id="WHAT">%1$s</xliff:g>).</string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Пакет значков</string>
+    <string name="icon_pack_summary">Выберите сторонний пакет иконок</string>
 </resources>

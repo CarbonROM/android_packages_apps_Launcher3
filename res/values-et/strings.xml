@@ -273,4 +273,7 @@
     <string name="bottom_work_tab_user_education_closed">Suletud</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Nurjus: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Ikoonipakett</string>
+    <string name="icon_pack_summary">Valige kohandatud ikoonipakk</string>
 </resources>
