@@ -271,4 +271,7 @@
     <string name="bottom_work_tab_user_education_closed">Kapalı</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Başarısız: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Simge paketi</string>
+    <string name="icon_pack_summary">Özel bir simge paketi seçin</string>
 </resources>
