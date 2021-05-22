@@ -270,4 +270,7 @@
     <string name="bottom_work_tab_user_education_closed">Chiusa</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Operazione non riuscita: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Pacchetto icone</string>
+    <string name="icon_pack_summary">Seleziona un pacchetto icone personalizzato</string>
 </resources>
