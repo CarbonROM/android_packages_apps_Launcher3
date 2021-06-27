@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Google Feed -->
     <string name="settings_feed">開啟Google Feed集成</string>
 </resources>

@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Google Feed -->
     <string name="settings_feed">Włącz integrację z Google Feed</string>
 </resources>

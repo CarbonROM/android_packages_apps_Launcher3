@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Google Feed -->
     <string name="settings_feed">Bật tích hợp nguồn cấp dữ liệu của Google</string>
 </resources>

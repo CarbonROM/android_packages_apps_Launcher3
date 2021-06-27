@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Google Feed -->
     <string name="settings_feed">Aktifkan integrasi umpan Google</string>
 </resources>

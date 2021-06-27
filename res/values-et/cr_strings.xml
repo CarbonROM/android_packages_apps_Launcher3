@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Google Feed -->
     <string name="settings_feed">Luba Google\'i voo integratsioon</string>
 </resources>
