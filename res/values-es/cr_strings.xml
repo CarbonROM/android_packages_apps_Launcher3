@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2020 CarbonROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="settings_edit_allow_title">Permitir edición</string>
+    <string name="settings_edit_allow_summary_on">Permitir añadir, eliminar o mover iconos y widgets en la pantalla de inicio</string>
+    <string name="settings_edit_allow_summary_off">No permitir añadir, eliminar o mover iconos y widgets de la pantalla de inicio</string>
+    <string name="settings_edit_widgets_error">No se pueden añadir widgets a la pantalla de inicio</string>
+    <string name="desktop_show_labels">Mostrar etiquetas del icono en el escritorio</string>
+    <string name="drawer_show_labels">Mostrar etiquetas de icono en el cajón de aplicaciones</string>
+    <string name="show_labels_landscape">Mostrar etiquetas de los iconos en modo horizontal</string>
+</resources>

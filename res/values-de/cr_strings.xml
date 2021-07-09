@@ -17,4 +17,8 @@
     <string name="settings_edit_allow_title">Bearbeiten erlauben</string>
     <string name="settings_edit_allow_summary_on">Symbole und Widgets können auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
     <string name="settings_edit_allow_summary_off">Symbole und Widgets können nicht auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+    <string name="settings_edit_widgets_error">Widgets können nicht zum Startbildschirm hinzugefügt werden</string>
+    <string name="desktop_show_labels">Symbolbezeichnungen auf dem Homescreen anzeigen</string>
+    <string name="drawer_show_labels">Symbolbeschriftungen im App-Drawer anzeigen</string>
+    <string name="show_labels_landscape">Symbolbezeichnungen im Querformat anzeigen</string>
 </resources>
