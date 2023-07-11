@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2023 CarbonROM
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="settings_lock_layout_title">Layout sperren</string>
+    <string name="settings_lock_layout_summary_on">Symbole und Widgets können nicht auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+    <string name="settings_lock_layout_summary_off">Symbole und Widgets können auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+    <string name="settings_edit_widgets_error">Widgets können nicht zum Startbildschirm hinzugefügt werden</string>
+    <string name="title_show_google_app">Google App anzeigen</string>
+    <string name="msg_minus_one_on_left">Wenn du vom Hauptbildschirm nach rechts wischst</string>
+    <string name="msg_minus_one_on_right">Wenn du vom Hauptbildschirm nach links wischst</string>
+    <string name="desktop_show_labels">Symbolbezeichnungen auf dem Homescreen anzeigen</string>
+    <string name="drawer_show_labels">Symbolbeschriftungen im App-Drawer anzeigen</string>
+</resources>
